@@ -1,5 +1,7 @@
 # Solutions
 
-Problems I have solved on various coding platforms.
+Problems I have solved on various coding platforms. Feel free to reach out about a specific solution!
 
-I hope to add more platforms and solve using different languages in the future. 
+## Profiles
+Kattis: [@god](https://open.kattis.com/users/god)  
+Codeforces: [@steroids](https://codeforces.com/profile/steroids)
