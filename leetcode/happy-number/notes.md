@@ -1,0 +1,1 @@
+Simple hash set problem, False if sum is seen in set, True if sum gets to 1
