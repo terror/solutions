@@ -228,6 +228,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Server](https://open.kattis.com/problems/server) | List, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/server/solution.py)
 | [Seven Wonders](https://open.kattis.com/problems/sevenwonders) | Frequency counting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/seven-wonders/solution.py)
 | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shattered-cake/solution.py)
+| [Shopaholic](https://open.kattis.com/problems/shopaholic) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shopaholic/solution.cpp)
 | [Sibice](https://open.kattis.com/problems/sibice) | Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sibice/solution.py)
 | [Simon Says](https://open.kattis.com/problems/simonsays) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon-says/solution.py)
 | [Simon](https://open.kattis.com/problems/simon) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon/solution.py)
