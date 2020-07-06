@@ -81,7 +81,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Army Strength (Hard)](https://open.kattis.com/problems/armystrengthhard) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengthhard/solution.py) |
 | [Autori](https://open.kattis.com/problems/autori) | Strings | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/autori/solution.cs) |
 | [Paradox With Averages (Hard)](https://open.kattis.com/problems/averageshard) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averageshard/solution.py) |
-| [Paradox With Averages (Hard)](https://open.kattis.com/problems/averageshard) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averageshard/solution.py) |
 | [Average Speed](https://open.kattis.com/problems/averagespeed) | Time Waster | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averagespeed/solution.py) |
 | [Avion](https://open.kattis.com/problems/averagespeed) | String Matching | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/autori/solution.cs) |
 | [Awkward Party](https://open.kattis.com/problems/averagespeed) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/awkward-party/solution.py) |
