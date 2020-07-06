@@ -183,6 +183,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
 | [Mars Window](https://open.kattis.com/problems/marswindow) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marswindow/solution.py)
 | [Metaprogramming](https://open.kattis.com/problems/metaprogramming) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/metaprogramming/solution.py)
+| [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/minimumscalar/solution.cpp)
 | [Mirror Images](https://open.kattis.com/problems/mirror) | Output Formatting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/mirror/solution.py)
 | [Missing Numbers](https://open.kattis.com/problems/missingnumbers) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/missing-numbers/solution.py)
 | [Mjehuric](https://open.kattis.com/problems/mjehuric) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/mjehuric/solution.py)
