@@ -145,6 +145,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Filip](https://open.kattis.com/problems/filip) | Function, Reverse Number | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/filip/solution.py)
 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/fizzbuzz/solution.py)
 | [Free Food](https://open.kattis.com/problems/freefood) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/free-food/solution.py)
+| [Frosh Week 2](https://open.kattis.com/problems/froshweek2) | Greedy (Classical) | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/froshweek2/solution.cpp)
 | [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
 | [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
