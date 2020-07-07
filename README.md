@@ -73,7 +73,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Another Candies](https://open.kattis.com/problems/anothercandies) | Modular Arithmetic | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/another-candies/solution.cs) |
-| [Anthony and Diablo](https://open.kattis.com/problems/anthonyanddiablo) | Circles | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anthony-and-diablo/solution.cs) |
+| [Another Brick in the Wall](https://open.kattis.com/problems/anotherbrick) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anotherbrick/solution.cpp) |
 | [Anthony and Diablo](https://open.kattis.com/problems/anthonyanddiablo) | Circles | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anthony-and-diablo/solution.cs) |
 | [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/anthonyanddiablo) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxianparent/solution.py) |
 | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxians/solution.py) |
@@ -199,7 +199,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Pairing Socks](https://open.kattis.com/problems/pairingsocks) | Stack | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pairingsocks/solution.py)
 | [Parking](https://open.kattis.com/problems/parking) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking/solution.py)
 | [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
-| [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
 | [Paul Eigon](https://open.kattis.com/problems/pauleigon) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/paul-eigon/solution.py)
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/peasoup/solution.py)
 | [Pet](https://open.kattis.com/problems/pet) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pet/solution.py)
@@ -231,7 +230,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Shopaholic](https://open.kattis.com/problems/shopaholic) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shopaholic/solution.cpp)
 | [Sibice](https://open.kattis.com/problems/sibice) | Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sibice/solution.py)
 | [Simon Says](https://open.kattis.com/problems/simonsays) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon-says/solution.py)
-| [Simon](https://open.kattis.com/problems/simon) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon/solution.py)
 | [Simon](https://open.kattis.com/problems/simon) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon/solution.py)
 | [Sjecista](https://open.kattis.com/problems/sjecista) | Formula | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sjecista/solution.py)
 | [Skener](https://open.kattis.com/problems/skener) | Output Formatting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/skener/solution.py)
