@@ -189,6 +189,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
 | [Lost Lineup](https://open.kattis.com/problems/lostlineup) | 1D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/lostlineup/solution.cpp)
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
+| [Marko](https://open.kattis.com/problems/marko) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marko/solution.py)
 | [Mars Window](https://open.kattis.com/problems/marswindow) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marswindow/solution.py)
 | [Metaprogramming](https://open.kattis.com/problems/metaprogramming) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/metaprogramming/solution.py)
 | [Minimum Scalar Product](https://open.kattis.com/problems/minimumscalar) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/minimumscalar/solution.cpp)
