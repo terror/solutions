@@ -151,6 +151,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Everywhere](https://open.kattis.com/problems/everywhere) | Hash Set, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/everywhere/solution.py)
 | [Exam](https://open.kattis.com/problems/exam) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/exam/solution.py)
 | [Faktor](https://open.kattis.com/problems/faktor) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/faktor/solution.py)
+| [Falling Apart](https://open.kattis.com/problems/fallingapart) | Sorting, Easier| [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/fallingapart/solution.cpp)
 | [Fifty Shades of Pink](https://open.kattis.com/problems/fiftyshades) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/fifty-shades-of-pink/solution.py)
 | [Filip](https://open.kattis.com/problems/filip) | Function, Reverse Number | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/filip/solution.py)
 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/fizzbuzz/solution.py)
