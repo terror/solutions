@@ -279,7 +279,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | Problem | Category | Solution |
 | - | - | - |
 | [Create Target Array](https://leetcode.com/problems/two-sum/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/create-target-array/solution.cs) |
-| [Create Target Array](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-the-duplicate-number/solution.cpp) |
+| [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-the-duplicate-number/solution.cpp) |
 | [Happy Number](https://leetcode.com/problems/two-sum/) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/happy-number/solution.py) |
 | [Height Checker](https://leetcode.com/problems/two-sum/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/height-checker/solution.cs) |
 | [Maximum Subarray](https://leetcode.com/problems/two-sum/) | Easy | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/maximum-subarray) |
