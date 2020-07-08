@@ -3,6 +3,7 @@
 Competitive Programming & Interview style problems I have solved on various coding platforms. Mainly using this repository to track my progress.
 
 # Contents
+[AtCoder](#atcoder)
 [CSES](#cses)  
 [Codeforces](#codeforces)  
 [Kattis](#kattis)  
@@ -10,6 +11,17 @@ Competitive Programming & Interview style problems I have solved on various codi
 [Project Euler](#project-euler)  
 
 # Tables
+
+## AtCoder
+
+### AtCoder Beginner Contest 172
+
+| Problem | Category | Solution |
+| - | - | - |
+| [A - Calc](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/A.cpp) |
+| [B - Minor Change](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Strings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/B.cpp) |
+| [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Prefix Sums | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/C.cpp) |
+| [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/D.cpp) |
 
 ## CSES
 
@@ -109,10 +121,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Cetiri](https://open.kattis.com/problems/cetiri) | Array, Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cetiri/solution.py)
 | [Cetvrta](https://open.kattis.com/problems/cetvrta) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cetvrta/solution.py)
 | [Chanukah Challenge](https://open.kattis.com/problems/chanukahchallenge) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/chanukah-challenge/solution.py)
-| [Chanukah Challenge](https://open.kattis.com/problems/chanukahchallenge) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/chanukah-challenge/solution.py)
 | [Compound Words](https://open.kattis.com/problems/compoundswords) | Hash Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compound-words/solution.py)
-| [Compound Words](https://open.kattis.com/problems/compoundswords) | Hash Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compound-words/solution.py)
-| [Conformity](https://open.kattis.com/problems/conformity) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conformity/solution.py)
 | [Conformity](https://open.kattis.com/problems/conformity) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conformity/solution.py)
 | [Costume Contest](https://open.kattis.com/problems/costumecontest) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/costume-contest/solution.py)
 | [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum) | Cipher, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/crypto-conundrum/solution.py)
@@ -147,7 +156,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Free Food](https://open.kattis.com/problems/freefood) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/free-food/solution.py)
 | [Frosh Week 2](https://open.kattis.com/problems/froshweek2) | Greedy (Classical) | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/froshweek2/solution.cpp)
 | [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
-| [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
@@ -179,7 +187,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [List Game](https://open.kattis.com/problems/listgame) | Prime Factors | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/listgame/solution.py)
 | [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
 | [Lost Lineup](https://open.kattis.com/problems/lostlineup) | 1D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/lostlineup/solution.cpp)
-| [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
 | [Mars Window](https://open.kattis.com/problems/marswindow) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marswindow/solution.py)
 | [Metaprogramming](https://open.kattis.com/problems/metaprogramming) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/metaprogramming/solution.py)
@@ -215,7 +222,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [R2](https://open.kattis.com/problems/r2) | I/O Only | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/r2)
 | [Ragged Right](https://open.kattis.com/problems/raggedright) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ragged-right/solution.py)
 | [Railroad](https://open.kattis.com/problems/railroad2) | Modular Arithmetic, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/railroad/solution.py)
-| [Recount](https://open.kattis.com/problems/recount) | Hash Table, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/recount/solution.cs)
 | [Recount](https://open.kattis.com/problems/recount) | Hash Table, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/recount/solution.cs)
 | [Relocation](https://open.kattis.com/problems/relocation) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/relocation/solution.py)
 | [Rijeci](https://open.kattis.com/problems/rijeci) | Fibonacci Numbers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rijeci/solution.py)
