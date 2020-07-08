@@ -81,8 +81,6 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Association for Computing Machinery](https://open.kattis.com/problems/acm2) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/acm2/solution.cpp) |
 | [Adding Words](https://open.kattis.com/problems/addingwords) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/addingwords/solution.py) |
 | [Akcija](https://open.kattis.com/problems/akcija) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/akcija/solution.py) |
-| [Akcija](https://open.kattis.com/problems/akcija) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/akcija/solution.py) |
-| [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Another Candies](https://open.kattis.com/problems/anothercandies) | Modular Arithmetic | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/another-candies/solution.cs) |
 | [Another Brick in the Wall](https://open.kattis.com/problems/anotherbrick) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anotherbrick/solution.cpp) |
@@ -94,8 +92,8 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Autori](https://open.kattis.com/problems/autori) | Strings | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/autori/solution.cs) |
 | [Paradox With Averages (Hard)](https://open.kattis.com/problems/averageshard) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averageshard/solution.py) |
 | [Average Speed](https://open.kattis.com/problems/averagespeed) | Time Waster | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averagespeed/solution.py) |
-| [Avion](https://open.kattis.com/problems/averagespeed) | String Matching | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/autori/solution.cs) |
-| [Awkward Party](https://open.kattis.com/problems/averagespeed) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/awkward-party/solution.py) |
+| [Avion](https://open.kattis.com/problems/avion) | String Matching | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/avion/solution.cs) |
+| [Awkward Party](https://open.kattis.com/problems/awkwardparty) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/awkward-party/solution.py) |
 | [Babelfish](https://open.kattis.com/problems/babelfish) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/babelfish/solution.py) |
 | [Baby Bites](https://open.kattis.com/problems/babybites) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/babybites/solution.py) |
 | [Backspace](https://open.kattis.com/problems/backspace) | List, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/backspace/solution.py) |
@@ -184,7 +182,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Ladder](https://open.kattis.com/problems/ladder) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ladder/solution.py)
 | [Last Factorial Digit](https://open.kattis.com/problems/lastfactorialdigit) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/last-factorial-digit/solution.py)
 | [Left Beehind](https://open.kattis.com/problems/leftbeehind) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/leftbeehind/solution.py)
-| [License To Launch](https://open.kattis.com/problems/leftbeehind) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/license-to-launch/solution.cs)
+| [License To Launch](https://open.kattis.com/problems/licensetolaunch) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/license-to-launch/solution.cs)
 | [Line Them Up](https://open.kattis.com/problems/lineup) | 1D Array, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/line-them-up/solution.py)
 | [List Game](https://open.kattis.com/problems/listgame) | Prime Factors | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/listgame/solution.py)
 | [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
@@ -218,7 +216,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Pot](https://open.kattis.com/problems/pot) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pot/solution.cs)
 | [Preludes](https://open.kattis.com/problems/chopin) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/preludes/solution.py)
 | [Printing Costs](https://open.kattis.com/problems/printingcosts) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/printing-costs/solution.py)
-| [Problem Classification](https://open.kattis.com/problems/printingcosts) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/problemclassification/solution.py)
+| [Problem Classification](https://open.kattis.com/problems/problemclassification) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/problemclassification/solution.py)
 | [Quadrant](https://open.kattis.com/problems/quadrant) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/quadrant/solution.cs)
 | [Quick Brown Fox](https://open.kattis.com/problems/quickbrownfox) | Strings, Pangram | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/quick-brown-fox/solutions.cs)
 | [Quite a Problem](https://open.kattis.com/problems/quiteaproblem) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/quite-a-problem/solution.py)
@@ -273,7 +271,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Vauvau](https://open.kattis.com/problems/vauvau) | Modular Arithmetic | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vauvau/solution.py)
 | [Veci](https://open.kattis.com/problems/veci) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/veci/solution.py)
 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay) | Hash Set | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/what-does-the-fox-say)
-| [Wood Cutting](https://open.kattis.com/problems/wood-cutting) | Sorting, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/wood-cutting/solution.cs)
+| [Wood Cutting](https://open.kattis.com/problems/woodcutting) | Sorting, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/wood-cutting/solution.cs)
 | [Yoda](https://open.kattis.com/problems/yoda) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/yoda/solution.py)
 | [Zamka](https://open.kattis.com/problems/zamka) | Math Simulation, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/zamka/solution.cs)
 
