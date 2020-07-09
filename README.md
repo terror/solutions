@@ -19,9 +19,9 @@ Competitive Programming & Interview style problems I have solved on various codi
 | Problem | Category | Solution |
 | - | - | - |
 | [A - Calc](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/A.cpp) |
-| [B - Minor Change](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Strings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/B.cpp) |
-| [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Prefix Sums | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/C.cpp) |
-| [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_a) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/D.cpp) |
+| [B - Minor Change](https://atcoder.jp/contests/abc172/tasks/abc172_b) | Strings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/B.cpp) |
+| [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c) | Prefix Sums | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/C.cpp) |
+| [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/ABC172/D.cpp) |
 
 ## CSES
 
@@ -53,21 +53,21 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [ 282A - Bit++](https://codeforces.com/problemset/problem/158/A) | Implementation | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/282A/solution.py) |
 | [ 1374A - Required Remainder](https://codeforces.com/problemset/problem/1374/A) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/A.cpp) |
 | [ 1374B - Multiply by 2, divide by 6](https://codeforces.com/problemset/problem/1374/B) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/B.cpp) |
-| [ 1374A - Move Brackets](https://codeforces.com/problemset/problem/1374/C) | Greedy, Strings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/C.cpp) |
-| [ 1374A - Zero Remainder Array](https://codeforces.com/problemset/problem/1374/D) | Math, Sortings, Two Pointers | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/D.cpp) |
+| [ 1374C - Move Brackets](https://codeforces.com/problemset/problem/1374/C) | Greedy, Strings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/C.cpp) |
+| [ 1374D - Zero Remainder Array](https://codeforces.com/problemset/problem/1374/D) | Math, Sortings, Two Pointers | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/Contest%20%23653%20Div%203/D.cpp) |
 | [ 1328A - Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/1328A/solution.py) |
 | [ 1352A - Sum of Round Numbers](https://codeforces.com/problemset/problem/1352/A) | Math, Implementation | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/1352A/solution.py) |
 | [ 520A - Pangram](https://codeforces.com/problemset/problem/520/A) | Strings, Implementation | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/520A/solution.py) |
 | [ 556A - Case of the Zeros and Ones](https://codeforces.com/problemset/problem/556/A) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/556A/solution.cpp) |
 | [ 580A - Kefa and First Steps](https://codeforces.com/problemset/problem/580/A) | Brute force, DP, Implementation | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/1352A/solution.cpp) |
-| [ 598A - Tricky Sum](https://codeforces.com/problemset/problem/1352/A) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/598A/solution.py) |
+| [ 598A - Tricky Sum](https://codeforces.com/problemset/problem/598/A) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/598A/solution.py) |
 | [ 914A - Perfect Squares](https://codeforces.com/problemset/problem/914/A) | Brute force, Implementation, Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/914A/solution.cpp) |
 | [ 160A - Twins](https://codeforces.com/problemset/problem/160/A) | Greedy, Sortings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/160A/solution.cpp) |
 | [ 208A - Dubstep](https://codeforces.com/problemset/problem/208/A) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/208A/solution.py) |
 | [ 318A - Even Odds](https://codeforces.com/problemset/problem/318/A) | Math | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/318A/solution.cpp) |
 | [ 337A - Puzzles](https://codeforces.com/problemset/problem/337/A) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/337A/solution.cpp) |
-| [ 405A - Gravity Flip](https://codeforces.com/problemset/problem/337/A) | Greedy, Implementation, Sortings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/405A/solution.cpp) |
-| [ 451A - Game With Sticks](https://codeforces.com/problemset/problem/337/A) | Implementation | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/451A/solution.cpp) |
+| [ 405A - Gravity Flip](https://codeforces.com/problemset/problem/405/A) | Greedy, Implementation, Sortings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/405A/solution.cpp) |
+| [ 451A - Game With Sticks](https://codeforces.com/problemset/problem/451/A) | Implementation | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/451A/solution.cpp) |
 
 ## Kattis
 
@@ -85,7 +85,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Another Candies](https://open.kattis.com/problems/anothercandies) | Modular Arithmetic | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/another-candies/solution.cs) |
 | [Another Brick in the Wall](https://open.kattis.com/problems/anotherbrick) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anotherbrick/solution.cpp) |
 | [Anthony and Diablo](https://open.kattis.com/problems/anthonyanddiablo) | Circles | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anthony-and-diablo/solution.cs) |
-| [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/anthonyanddiablo) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxianparent/solution.py) |
+| [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/apaxianparent) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxianparent/solution.py) |
 | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxians/solution.py) |
 | [Army Strength (Easy)](https://open.kattis.com/problems/armystrengtheasy) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengtheasy/solution.py) |
 | [Army Strength (Hard)](https://open.kattis.com/problems/armystrengthhard) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengthhard/solution.py) |
@@ -95,7 +95,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Avion](https://open.kattis.com/problems/avion) | String Matching | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/avion/solution.cs) |
 | [Awkward Party](https://open.kattis.com/problems/awkwardparty) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/awkward-party/solution.py) |
 | [Babelfish](https://open.kattis.com/problems/babelfish) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/babelfish/solution.py) |
-| [Baby Bites](https://open.kattis.com/problems/babybites) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/babybites/solution.py) |
+| [Baby Bites](https://open.kattis.com/problems/babybites) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/baby-bites/solution.py) |
 | [Backspace](https://open.kattis.com/problems/backspace) | List, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/backspace/solution.py) |
 | [Bacon, Eggs, and Spam](https://open.kattis.com/problems/baconeggsandspam) | Hash Table, Sorting| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bacon-eggs-spam/solution.py) |
 | [Bank Queue](https://open.kattis.com/problems/bank) | Greedy, Priority Queue| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bank-queue/solution.py)
@@ -156,7 +156,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Free Food](https://open.kattis.com/problems/freefood) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/free-food/solution.py)
 | [Frosh Week 2](https://open.kattis.com/problems/froshweek2) | Greedy (Classical) | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/froshweek2/solution.cpp)
 | [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
-| [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
+| [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/greedilyincreasing/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
 | [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) | Hash Table, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardwoodspecies/solution.py)
@@ -165,7 +165,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Heart Rate](https://open.kattis.com/problems/heartrate) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heart-rate/solution.py)
 | [Height Ordering](https://open.kattis.com/problems/height) | Sorting Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/height-ordering/solution.py)
 | [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heirs-dilemma/solution.py)
-| [Hello](https://open.kattis.com/problems/heirsdilemma) | I/O Only | [Python3, C++, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hello)
+| [Hello](https://open.kattis.com/problems/hello) | I/O Only | [Python3, C++, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hello)
 | [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/help-a-phd/solution.py)
 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hissing-microphone/solution.py)
 | [Howl](https://open.kattis.com/problems/howl) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/howl/solution.py)
@@ -251,7 +251,8 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Spavanac](https://open.kattis.com/problems/spavanac) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/spavanac/solution.py)
 | [Speed Limit](https://open.kattis.com/problems/speedlimit) | Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/speed-limit/solution.py)
 | [Stacking Cups](https://open.kattis.com/problems/cups) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/stacking-cups/solution.py)
-| [Stand on Zanzibar](https://open.kattis.com/problems/zanzibar) | Control Flow| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/stand-on-zanzibar/solution.py)
+| [Stand on Zanzibar](https://open.kattis.com/problems/zanzibar) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/stand-on-zanzibar/solution.py)
+| [Biased Standings](https://open.kattis.com/problems/standings) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/standings/solution.py)
 | [Statistics](https://open.kattis.com/problems/statistics) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/statistics/solution.py)
 | [Sticky Situation](https://open.kattis.com/problems/stickysituation) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sticky-situation/solution.py)
 | [Sum of the Others](https://open.kattis.com/problems/sumoftheothers) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-of-the-others/solution.py)
@@ -261,7 +262,7 @@ Competitive Programming & Interview style problems I have solved on various codi
 | [Tetration](https://open.kattis.com/problems/tetration) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tetration/solution.py)
 | [The Owl and The Fox](https://open.kattis.com/problems/owlandfox) | Complete Search | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/the-owl-and-the-fox/solution.py)
 | [The Grand Adventure](https://open.kattis.com/problems/thegrandadventure) | Stack Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/thegrandadventure/solution.py)
-| [Timeloop](https://open.kattis.com/problems/imeloop) | Repetition Only | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/timeloop/solution.cs)
+| [Timeloop](https://open.kattis.com/problems/timeloop) | Repetition Only | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/timeloop/solution.cs)
 | [To Lower](https://open.kattis.com/problems/tolower) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/to-lower/solution.py)
 | [Towering](https://open.kattis.com/problems/towering) | 3 Nested Loops | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/towering/solution.py)
 | [Tri](https://open.kattis.com/problems/tri) | Math Simulation, Easier| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tri/solution.py)
@@ -294,9 +295,9 @@ Competitive Programming & Interview style problems I have solved on various codi
 
 | Problem | Category | Solution |
 | - | - | - |
-| [1- Multiples of 3 and 5](https://projecteuler.net/problem=1) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/001/solution.py) |
-| [2- Even Fibonacci numbers](https://projecteuler.net/problem=2) | Math, Fibonacci | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/002/solution.py) |
+| [1 - Multiples of 3 and 5](https://projecteuler.net/problem=1) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/001/solution.py) |
+| [2 - Even Fibonacci numbers](https://projecteuler.net/problem=2) | Math, Fibonacci | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/002/solution.py) |
 | [4 - Largest palindrome product](https://projecteuler.net/problem=4) | Math, Palindromes | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/004/solution.py) |
-| [6- Sum square difference](https://projecteuler.net/problem=6) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/006/solution.py) |
+| [6 - Sum square difference](https://projecteuler.net/problem=6) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/006/solution.py) |
 | [8 - Largest product in a series](https://projecteuler.net/problem=8) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/008/solution.py) |
 | [10 - Summation of primes](https://projecteuler.net/problem=10) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/010/solution.py) |
