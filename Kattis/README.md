@@ -106,6 +106,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [ICPC Awards](https://open.kattis.com/problems/icpcawards) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/icpcawards/solution.py)
 | [Janitor Troubles](https://open.kattis.com/problems/janitortroubles) | Formula | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/janitortroubles/solution.py)
 | [Job Expenses](https://open.kattis.com/problems/jobexpenses) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/job-expenses/solution.cs)
+| [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) | 1D Array, Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/jollyjumpers/solution.cpp
 | [Judging Troubles](https://open.kattis.com/problems/judging) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/judging/solution.py)
 | [Just a Minute](https://open.kattis.com/problems/justaminute) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/justaminute/solution.py)
 | [Kafkaesque](https://open.kattis.com/problems/kafkaesque) | Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kafkaesque/solution.py)
