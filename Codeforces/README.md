@@ -5,6 +5,7 @@ Solutions to problems from [Codeforces](https://codeforces.com/).
 | Problem | Category | Solution |
 | - | - | - |
 | [4A - Watermelon](https://codeforces.com/problemset/problem/4/A) | Brute force, Math | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/4A/solution.py) |
+| [16B - Burglar and Matches](https://codeforces.com/problemset/problem/16/B) | Greedy, Sortings | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/16B/16B.cpp) |
 | [71A - Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/71A/solution.py) |
 | [231A - Team](https://codeforces.com/problemset/problem/231/A) | Brute force, Greedy | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/231A/solution.py) |
 | [158A - Next Round](https://codeforces.com/problemset/problem/158/A) | *Special Problem, Implementation | [Python3](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/158A/solution.py) |
