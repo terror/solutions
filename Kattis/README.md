@@ -192,6 +192,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Sum Squared Digits Function](https://open.kattis.com/problems/sumsquareddigits) | Base Number Variants | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-squared-digits/solution.py)
 | [Tai's Formula](https://open.kattis.com/problems/taisformula) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tais-formula/solution.py)
 | [Tarifa](https://open.kattis.com/problems/tarifa) | Repetition Only | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tarifa/solution.py)
+| [Teacher Evaluation](https://open.kattis.com/problems/teacherevaluation) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/teacherevaluation/solution.cpp)
 | [Tetration](https://open.kattis.com/problems/tetration) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tetration/solution.py)
 | [The Owl and The Fox](https://open.kattis.com/problems/owlandfox) | Complete Search | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/the-owl-and-the-fox/solution.py)
 | [The Grand Adventure](https://open.kattis.com/problems/thegrandadventure) | Stack Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/thegrandadventure/solution.py)
