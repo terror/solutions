@@ -89,6 +89,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Free Food](https://open.kattis.com/problems/freefood) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/free-food/solution.py)
 | [Frosh Week 2](https://open.kattis.com/problems/froshweek2) | Greedy (Classical) | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/froshweek2/solution.cpp)
 | [Gerrymandering](https://open.kattis.com/problems/gerrymandering) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/gerrymandering/solution.py)
+| [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | 2D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/grandpascheckerboard/solution.cpp)
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/greedilyincreasing/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
