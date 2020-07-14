@@ -8,6 +8,7 @@ Solutions to problems from the [CSES](https://cses.fi/problemset/list/) problem 
 | [Missing Number](https://cses.fi/problemset/task/1083) | Introduction | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Introduction/missingnumber.cpp) |
 | [Repetitions](https://cses.fi/problemset/task/1069) | Introduction | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Introduction/repetitions.cpp) |
 | [Increasing Array](https://cses.fi/problemset/task/1094) | Introduction | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Introduction/increasingarray.cpp) |
+| [Bit Strings](https://cses.fi/problemset/task/1617) | Introduction | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Introduction/bitstrings.cpp) 
 | [Distinct Numbers](https://cses.fi/problemset/task/1621) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/distinctnumbers.cpp) |
 | [Apartments](https://cses.fi/problemset/task/1084) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/apartments.cpp) |
 | [Concert Tickets](https://cses.fi/problemset/task/1091) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/concerttickets.cpp) |
