@@ -120,6 +120,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Line Them Up](https://open.kattis.com/problems/lineup) | 1D Array, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/line-them-up/solution.py)
 | [List Game](https://open.kattis.com/problems/listgame) | Prime Factors | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/listgame/solution.py)
 | [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
+| [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/loowater/solution.cpp
 | [Lost Lineup](https://open.kattis.com/problems/lostlineup) | 1D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/lostlineup/solution.cpp)
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
 | [Marko](https://open.kattis.com/problems/marko) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marko/solution.py)
