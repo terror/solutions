@@ -110,6 +110,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Judging Troubles](https://open.kattis.com/problems/judging) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/judging/solution.py)
 | [Just a Minute](https://open.kattis.com/problems/justaminute) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/justaminute/solution.py)
 | [Kafkaesque](https://open.kattis.com/problems/kafkaesque) | Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kafkaesque/solution.py)
+| [Karte](https://open.kattis.com/problems/karte) | Game (Card) | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/karte/solution.py)
 | [Kemija](https://open.kattis.com/problems/kemija) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kemija/solution.py)
 | [Keywords](https://open.kattis.com/problems/keywords) | Hash Set, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/keywords/solution.py)
 | [Kornislav](https://open.kattis.com/problems/kornislav) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kornislav/solution.py)
@@ -120,7 +121,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Line Them Up](https://open.kattis.com/problems/lineup) | 1D Array, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/line-them-up/solution.py)
 | [List Game](https://open.kattis.com/problems/listgame) | Prime Factors | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/listgame/solution.py)
 | [Long Swaps](https://open.kattis.com/problems/longswaps) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/long-swaps/solution.py)
-| [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/loowater/solution.cpp
+| [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/loowater/solution.cpp)
 | [Lost Lineup](https://open.kattis.com/problems/lostlineup) | 1D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/lostlineup/solution.cpp)
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
 | [Marko](https://open.kattis.com/problems/marko) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marko/solution.py)
