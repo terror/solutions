@@ -137,6 +137,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Moving Day](https://open.kattis.com/problems/movingday) | 3D Geometry | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/movingday/solution.py)
 | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/nastyhacks/solution.cs)
 | [Number Fun](https://open.kattis.com/problems/numberfun) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/number-fun/solution.py)
+| [Numbers On a Tree](https://open.kattis.com/problems/numbertree) | Binary Heap Indexing | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/numbertree/solution.cpp)
 | [Oceans Anti 11](https://open.kattis.com/problems/anti11) | Fibonacci Numbers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/oceans-anti-11/solution.py)
 | [Odd Gnome](https://open.kattis.com/problems/oddgnome) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/odd-gnome/solution.py)
 | [Oktalni](https://open.kattis.com/problems/oktalni) | Base Number Conversion | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/oktalni/solution.py)
