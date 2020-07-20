@@ -20,6 +20,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxians/solution.py) |
 | [Army Strength (Easy)](https://open.kattis.com/problems/armystrengtheasy) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengtheasy/solution.py) |
 | [Army Strength (Hard)](https://open.kattis.com/problems/armystrengthhard) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengthhard/solution.py) |
+| [Artichoke](https://open.kattis.com/problems/artichoke) | Function | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/artichoke/solution.py) |
 | [Autori](https://open.kattis.com/problems/autori) | Strings | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/autori/solution.cs) |
 | [Paradox With Averages (Hard)](https://open.kattis.com/problems/averageshard) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averageshard/solution.py) |
 | [Average Speed](https://open.kattis.com/problems/averagespeed) | Time Waster | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/averagespeed/solution.py) |
