@@ -162,6 +162,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [R2](https://open.kattis.com/problems/r2) | I/O Only | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/r2)
 | [Ragged Right](https://open.kattis.com/problems/raggedright) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ragged-right/solution.py)
 | [Railroad](https://open.kattis.com/problems/railroad2) | Modular Arithmetic, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/railroad/solution.py)
+| [A Rational Sequence 2](https://open.kattis.com/problems/rationalsequence2) | Binary Heap Indexing | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rationalsequence2/solution.cpp)
 | [Recount](https://open.kattis.com/problems/recount) | Hash Table, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/recount/solution.cs)
 | [Relocation](https://open.kattis.com/problems/relocation) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/relocation/solution.py)
 | [Rijeci](https://open.kattis.com/problems/rijeci) | Fibonacci Numbers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rijeci/solution.py)
