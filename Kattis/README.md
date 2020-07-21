@@ -100,6 +100,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Heart Rate](https://open.kattis.com/problems/heartrate) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heart-rate/solution.py)
 | [Height Ordering](https://open.kattis.com/problems/height) | Sorting Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/height-ordering/solution.py)
 | [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heirs-dilemma/solution.py)
+| [Heliocentric](https://open.kattis.com/problems/heliocentric) | Brute force | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heliocentric/solution.cpp
 | [Hello](https://open.kattis.com/problems/hello) | I/O Only | [Python3, C++, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hello)
 | [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/help-a-phd/solution.py)
 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hissing-microphone/solution.py)
