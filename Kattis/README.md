@@ -152,6 +152,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Pet](https://open.kattis.com/problems/pet) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pet/solution.py)
 | [Piece of Cake!](https://open.kattis.com/problems/pieceofcake2) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/piece-of-cake/solution.py)
 | [Pizza Crust](https://open.kattis.com/problems/pizza2) | Circles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pizza-crust/solution.py)
+| [Planting Trees](https://open.kattis.com/problems/plantingtrees) | Greedy, Sorting | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/plantingtrees/solution.cpp)
 | [Poker Hand](https://open.kattis.com/problems/pokerhand) | Frequency Counting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/poker-hand/solution.py)
 | [Pot](https://open.kattis.com/problems/pot) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pot/solution.cs)
 | [Preludes](https://open.kattis.com/problems/chopin) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/preludes/solution.py)
