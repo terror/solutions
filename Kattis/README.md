@@ -100,7 +100,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Heart Rate](https://open.kattis.com/problems/heartrate) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heart-rate/solution.py)
 | [Height Ordering](https://open.kattis.com/problems/height) | Sorting Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/height-ordering/solution.py)
 | [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heirs-dilemma/solution.py)
-| [Heliocentric](https://open.kattis.com/problems/heliocentric) | Brute force | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heliocentric/solution.cpp
+| [Heliocentric](https://open.kattis.com/problems/heliocentric) | Brute force | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/heliocentric/solution.cpp)
 | [Hello](https://open.kattis.com/problems/hello) | I/O Only | [Python3, C++, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hello)
 | [Help a PhD candidate out!](https://open.kattis.com/problems/helpaphd) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/help-a-phd/solution.py)
 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hissing-microphone/solution.py)
@@ -214,6 +214,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Two Stones](https://open.kattis.com/problems/twostones) | Formula, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/two-stones/solution.cs)
 | [Vauvau](https://open.kattis.com/problems/vauvau) | Modular Arithmetic | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vauvau/solution.py)
 | [Veci](https://open.kattis.com/problems/veci) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/veci/solution.py)
+| [Popular Vote](https://open.kattis.com/problems/vote) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vote/solution.py)
 | [Weak Vertices](https://open.kattis.com/problems/weakvertices) | Graphs | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/weakvertices/solution.cpp)
 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay) | Hash Set | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/what-does-the-fox-say)
 | [Wood Cutting](https://open.kattis.com/problems/woodcutting) | Sorting, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/wood-cutting/solution.cs)
