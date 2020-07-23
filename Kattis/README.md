@@ -216,6 +216,8 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Two Stones](https://open.kattis.com/problems/twostones) | Formula, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/two-stones/solution.cs)
 | [Vauvau](https://open.kattis.com/problems/vauvau) | Modular Arithmetic | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vauvau/solution.py)
 | [Veci](https://open.kattis.com/problems/veci) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/veci/solution.py)
+| [Video Speedup](https://open.kattis.com/problems/videospeedup) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/videospeedup/solution.cpp)
+| [Volim](https://open.kattis.com/problems/volim) | Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/volim/solution.py)
 | [Popular Vote](https://open.kattis.com/problems/vote) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vote/solution.py)
 | [Weak Vertices](https://open.kattis.com/problems/weakvertices) | Graphs | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/weakvertices/solution.cpp)
 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay) | Hash Set | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/what-does-the-fox-say)
