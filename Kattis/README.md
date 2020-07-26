@@ -35,6 +35,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2) | Functions, Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basic-programming-2/solution.py)
 | [Basketball One On One](https://open.kattis.com/problems/basketballoneonone) | Accumulating | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basketball-one-on-one/solution.py)
 | [Batter Up](https://open.kattis.com/problems/batterup) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/batter-up/solution.py)
+| [Battle Simulation](https://open.kattis.com/problems/battlesimulation) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/battlesimulation/solution.cpp)
 | [Beehives](https://open.kattis.com/problems/beehives) | Simulation, Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/beehives/solution.py)
 | [Beekeeper](https://open.kattis.com/problems/beekeeper) | Hash Table | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/beekeeper/solution.cs)
 | [Bela](https://open.kattis.com/problems/bela) | Card Game, Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bela/solution.py)
