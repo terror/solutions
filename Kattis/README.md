@@ -203,6 +203,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Sum of the Others](https://open.kattis.com/problems/sumoftheothers) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-of-the-others/solution.py)
 | [Sum Squared Digits Function](https://open.kattis.com/problems/sumsquareddigits) | Base Number Variants | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-squared-digits/solution.py)
 | [Synchronizing Lists](https://open.kattis.com/problems/synchronizinglists) | Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/synchronizinglists/solution.py)
+| [T9 Spelling](https://open.kattis.com/problems/t9spelling) | Cipher, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/t9spelling/solution.py)
 | [Tai's Formula](https://open.kattis.com/problems/taisformula) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tais-formula/solution.py)
 | [Tarifa](https://open.kattis.com/problems/tarifa) | Repetition Only | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tarifa/solution.py)
 | [Teacher Evaluation](https://open.kattis.com/problems/teacherevaluation) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/teacherevaluation/solution.cpp)
