@@ -33,6 +33,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Bank Queue](https://open.kattis.com/problems/bank) | Greedy, Priority Queue| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bank-queue/solution.py)
 | [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1) | Functions, Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basic-programming-1/solution.py)
 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2) | Functions, Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basic-programming-2/solution.py)
+| [Basic Remains](https://open.kattis.com/problems/basicremains) | Base Number Conversion | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basicremains/solution.py)
 | [Basketball One On One](https://open.kattis.com/problems/basketballoneonone) | Accumulating | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/basketball-one-on-one/solution.py)
 | [Batter Up](https://open.kattis.com/problems/batterup) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/batter-up/solution.py)
 | [Battle Simulation](https://open.kattis.com/problems/battlesimulation) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/battlesimulation/solution.cpp)
