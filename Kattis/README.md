@@ -160,6 +160,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Poker Hand](https://open.kattis.com/problems/pokerhand) | Frequency Counting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/poker-hand/solution.py)
 | [Pot](https://open.kattis.com/problems/pot) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pot/solution.cs)
 | [Preludes](https://open.kattis.com/problems/chopin) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/preludes/solution.py)
+| [Primary Arithmetic](https://open.kattis.com/problems/primaryarithmetic) | Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/primaryarithmetic/solution.py)
 | [Printing Costs](https://open.kattis.com/problems/printingcosts) | Time Waster, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/printing-costs/solution.py)
 | [Problem Classification](https://open.kattis.com/problems/problemclassification) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/problemclassification/solution.py)
 | [Quadrant](https://open.kattis.com/problems/quadrant) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/quadrant/solution.cs)
