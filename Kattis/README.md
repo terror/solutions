@@ -121,6 +121,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Kemija](https://open.kattis.com/problems/kemija) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kemija/solution.py)
 | [Keywords](https://open.kattis.com/problems/keywords) | Hash Set, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/keywords/solution.py)
 | [Kornislav](https://open.kattis.com/problems/kornislav) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kornislav/solution.py)
+| [Krizaljka](https://open.kattis.com/problems/krizaljka) | Output Formatting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/krizaljka/solution.py)
 | [Ladder](https://open.kattis.com/problems/ladder) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ladder/solution.py)
 | [Last Factorial Digit](https://open.kattis.com/problems/lastfactorialdigit) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/last-factorial-digit/solution.py)
 | [Left Beehind](https://open.kattis.com/problems/leftbeehind) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/leftbeehind/solution.py)
