@@ -149,6 +149,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Odd Gnome](https://open.kattis.com/problems/oddgnome) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/odd-gnome/solution.py)
 | [Oktalni](https://open.kattis.com/problems/oktalni) | Base Number Conversion | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/oktalni/solution.py)
 | [One Chicken](https://open.kattis.com/problems/onechicken) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/one-chicken/solution.py)
+| [Ostgotska](https://open.kattis.com/problems/ostgotska) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ostgotska/solution.py)
 | [Pairing Socks](https://open.kattis.com/problems/pairingsocks) | Stack | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pairingsocks/solution.py)
 | [Parking](https://open.kattis.com/problems/parking) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking/solution.py)
 | [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
