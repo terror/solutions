@@ -152,7 +152,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Ostgotska](https://open.kattis.com/problems/ostgotska) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ostgotska/solution.py)
 | [Pairing Socks](https://open.kattis.com/problems/pairingsocks) | Stack | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pairingsocks/solution.py)
 | [Parking](https://open.kattis.com/problems/parking) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking/solution.py)
-| [Parking 2](https://open.kattis.com/problems/parking2) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking2/solution.py
+| [Parking 2](https://open.kattis.com/problems/parking2) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking2/solution.py)
 | [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
 | [Paul Eigon](https://open.kattis.com/problems/pauleigon) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/paul-eigon/solution.py)
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/peasoup/solution.py)
@@ -231,6 +231,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Popular Vote](https://open.kattis.com/problems/vote) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/vote/solution.py)
 | [Weak Vertices](https://open.kattis.com/problems/weakvertices) | Graphs | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/weakvertices/solution.cpp)
 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay) | Hash Set | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/what-does-the-fox-say)
+| [Wizard of Odds](https://open.kattis.com/problems/wizardofodds) | Big Integer | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/wizardofodds/solution.py)
 | [Wood Cutting](https://open.kattis.com/problems/woodcutting) | Sorting, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/wood-cutting/solution.cs)
 | [Yoda](https://open.kattis.com/problems/yoda) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/yoda/solution.py)
 | [Zamka](https://open.kattis.com/problems/zamka) | Math Simulation, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/zamka/solution.cs)
