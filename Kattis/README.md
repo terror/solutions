@@ -152,6 +152,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Ostgotska](https://open.kattis.com/problems/ostgotska) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ostgotska/solution.py)
 | [Pairing Socks](https://open.kattis.com/problems/pairingsocks) | Stack | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pairingsocks/solution.py)
 | [Parking](https://open.kattis.com/problems/parking) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking/solution.py)
+| [Parking 2](https://open.kattis.com/problems/parking2) | Real Life, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/parking2/solution.py
 | [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
 | [Paul Eigon](https://open.kattis.com/problems/pauleigon) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/paul-eigon/solution.py)
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/peasoup/solution.py)
