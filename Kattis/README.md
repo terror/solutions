@@ -188,6 +188,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Sibice](https://open.kattis.com/problems/sibice) | Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sibice/solution.py)
 | [Simon Says](https://open.kattis.com/problems/simonsays) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon-says/solution.py)
 | [Simon](https://open.kattis.com/problems/simon) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon/solution.py)
+| [Simple Addition](https://open.kattis.com/problems/simpleaddition) | Big Integer | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simpleaddition/solution.py)
 | [Simplicity](https://open.kattis.com/problems/simplicity) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simplicity/solution.cpp)
 | [Sjecista](https://open.kattis.com/problems/sjecista) | Formula | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sjecista/solution.py)
 | [Skener](https://open.kattis.com/problems/skener) | Output Formatting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/skener/solution.py)
