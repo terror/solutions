@@ -9,3 +9,4 @@ Competitive Programming & Interview style problems I have solved on various codi
 [Kattis](https://github.com/terror/CompetitiveProgramming/blob/master/Kattis/README.md)  
 [Leetcode](https://github.com/terror/CompetitiveProgramming/blob/master/Leetcode/README.md)  
 [Project Euler](https://github.com/terror/CompetitiveProgramming/blob/master/Project%20Euler/README.md)  
+[UVA](https://github.com/terror/CompetitiveProgramming/blob/master/UVA)  
