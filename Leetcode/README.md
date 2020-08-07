@@ -6,6 +6,7 @@ Solutions to problems from [Leetcode](https://leetcode.com/).
 | - | - | - |
 | [Create Target Array](https://leetcode.com/problems/two-sum/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/create-target-array/solution.cs) |
 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-the-duplicate-number/solution.cpp) |
+| [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-duplicates-in-array/solution.py) |
 | [Happy Number](https://leetcode.com/problems/two-sum/) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/happy-number/solution.py) |
 | [Height Checker](https://leetcode.com/problems/two-sum/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/height-checker/solution.cs) |
 | [Maximum Subarray](https://leetcode.com/problems/two-sum/) | Easy | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/maximum-subarray) |
