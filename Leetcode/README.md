@@ -16,4 +16,5 @@ Solutions to problems from [Leetcode](https://leetcode.com/).
 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/single-numbery/solution.cs) |
 | [Squares Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/squares-sorted-array/solution.cs) |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/two-sum/solution.py) |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/valid-palindrome/solution.py) |
 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/vertical-order-binary-tree/solution.py) |
