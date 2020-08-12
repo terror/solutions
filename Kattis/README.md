@@ -99,6 +99,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/greedilyincreasing/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
+| [Hardware](https://open.kattis.com/problems/hardware) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardware/solution.py)
 | [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) | Hash Table, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardwoodspecies/solution.py)
 | [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/harshadnumbers/solution.py)
 | [Hay Points](https://open.kattis.com/problems/haypoints) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/haypoints/solution.py)
