@@ -58,6 +58,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Radio Commercials](https://open.kattis.com/problems/commercials) | Max 1D Range Sum | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/commercials/solution.cpp)
 | [Competitive Arcade Basketball](https://open.kattis.com/problems/competitivearcadebasketball) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/competitivearcadebasketball/solution.py)
 | [Compound Words](https://open.kattis.com/problems/compoundswords) | Hash Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compound-words/solution.py)
+| [Best Compromise](https://open.kattis.com/problems/compromise) | 2D Array | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compromise/solution.py)
 | [Conformity](https://open.kattis.com/problems/conformity) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conformity/solution.py)
 | [Conversation Log](https://open.kattis.com/problems/conversationlog) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conversationlog/solution.py)
 | [Costume Contest](https://open.kattis.com/problems/costumecontest) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/costume-contest/solution.py)
