@@ -164,6 +164,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Patuljci](https://open.kattis.com/problems/patuljci) | Nested Loops, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/patuljci/solution.py)
 | [Paul Eigon](https://open.kattis.com/problems/pauleigon) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/paul-eigon/solution.py)
 | [Pea Soup and Pancakes](https://open.kattis.com/problems/peasoup) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/peasoup/solution.py)
+| [Permuted Arithmetic Sequence](https://open.kattis.com/problems/permutedarithmeticsequence) | Number Sequences | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/permutedarithmeticsequence/solution.py)
 | [Pervasive Heart Monitor](https://open.kattis.com/problems/pervasiveheartmonitor) | Input Parsing | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pervasiveheartmonitor/solution.py)
 | [Pet](https://open.kattis.com/problems/pet) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/pet/solution.py)
 | [Piece of Cake!](https://open.kattis.com/problems/pieceofcake2) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/piece-of-cake/solution.py)
