@@ -121,6 +121,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2) | Triangles (Trigonometry) | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/human-canonball/solution.py)
 | [ICPC Awards](https://open.kattis.com/problems/icpcawards) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/icpcawards/solution.py)
 | [Inflation](https://open.kattis.com/problems/inflation) | Greedy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/inflation/solution.py)
+| [I Wanna Be The Very Best](https://open.kattis.com/problems/iwannabe) | Hash Map/Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/iwannabe/solution.py)
 | [Janitor Troubles](https://open.kattis.com/problems/janitortroubles) | Formula | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/janitortroubles/solution.py)
 | [Job Expenses](https://open.kattis.com/problems/jobexpenses) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/job-expenses/solution.cs)
 | [Jolly Jumpers](https://open.kattis.com/problems/jollyjumpers) | 1D Array, Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/jollyjumpers/solution.cpp)
