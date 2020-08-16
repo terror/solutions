@@ -225,6 +225,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Biased Standings](https://open.kattis.com/problems/standings) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/standings/solution.py)
 | [Statistics](https://open.kattis.com/problems/statistics) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/statistics/solution.py)
 | [Sticky Situation](https://open.kattis.com/problems/stickysituation) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sticky-situation/solution.py)
+| [String Matching](https://open.kattis.com/problems/stringmatching) | KMP | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/stringmatching/solution.py)
 | [Sum of the Others](https://open.kattis.com/problems/sumoftheothers) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-of-the-others/solution.py)
 | [Sum Squared Digits Function](https://open.kattis.com/problems/sumsquareddigits) | Base Number Variants | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sum-squared-digits/solution.py)
 | [Symmetric Order](https://open.kattis.com/problems/symmetricorder) | Stack | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/symmetricorder/solution.py)
