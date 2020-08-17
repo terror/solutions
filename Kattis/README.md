@@ -77,6 +77,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Digits](https://open.kattis.com/problems/digits) | Recursion | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/digits/solution.cpp)
 | [Dirty Driving](https://open.kattis.com/problems/dirtydriving) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/dirty-driving/solution.py)
 | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/drinking-song/solution.py)
+| [DRM Messages](https://open.kattis.com/problems/drmmessages) | Cipher | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/drmmessages/solution.py)
 | [Early Winter](https://open.kattis.com/problems/earlywinter) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/early-winter/solution.py)
 | [Easiest](https://open.kattis.com/problems/easiest) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/easiest/solution.py)
 | [Egypt](https://open.kattis.com/problems/egypt) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/egypt/solution.py)
