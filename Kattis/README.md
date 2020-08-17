@@ -62,6 +62,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Best Compromise](https://open.kattis.com/problems/compromise) | 2D Array | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compromise/solution.py)
 | [Conformity](https://open.kattis.com/problems/conformity) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conformity/solution.py)
 | [Conversation Log](https://open.kattis.com/problems/conversationlog) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/conversationlog/solution.py)
+| [Cooking Water](https://open.kattis.com/problems/cookingwater) | Complete Search | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cookingwater/solution.cpp)
 | [Costume Contest](https://open.kattis.com/problems/costumecontest) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/costume-contest/solution.py)
 | [Counting Clauses](https://open.kattis.com/problems/coutingclauses) | Special, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/countingclauses/solution.py)
 | [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum) | Cipher, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/crypto-conundrum/solution.py)
