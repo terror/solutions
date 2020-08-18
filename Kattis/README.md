@@ -243,6 +243,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [To Lower](https://open.kattis.com/problems/tolower) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/to-lower/solution.py)
 | [Toilet](https://open.kattis.com/problems/toilet) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/toilet/solution.cpp)
 | [Towering](https://open.kattis.com/problems/towering) | 3 Nested Loops | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/towering/solution.py)
+| [Train Passengers](https://open.kattis.com/problems/trainpassengers) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/trainpassengers/solution.cpp)
 | [Tri](https://open.kattis.com/problems/tri) | Math Simulation, Easier| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tri/solution.py)
 | [Trik](https://open.kattis.com/problems/trik) | Game Simulation, Easier| [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/trik/solution.cs)
 | [Triple Texting](https://open.kattis.com/problems/tripletexting) | Frequency Counting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/triple-texting/solution.py)
