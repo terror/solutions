@@ -241,6 +241,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [The Grand Adventure](https://open.kattis.com/problems/thegrandadventure) | Stack Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/thegrandadventure/solution.py)
 | [Timeloop](https://open.kattis.com/problems/timeloop) | Repetition Only | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/timeloop/solution.cs)
 | [To Lower](https://open.kattis.com/problems/tolower) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/to-lower/solution.py)
+| [Toilet](https://open.kattis.com/problems/toilet) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/toilet/solution.cpp)
 | [Towering](https://open.kattis.com/problems/towering) | 3 Nested Loops | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/towering/solution.py)
 | [Tri](https://open.kattis.com/problems/tri) | Math Simulation, Easier| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tri/solution.py)
 | [Trik](https://open.kattis.com/problems/trik) | Game Simulation, Easier| [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/trik/solution.cs)
