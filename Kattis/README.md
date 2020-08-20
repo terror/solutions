@@ -194,6 +194,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Relocation](https://open.kattis.com/problems/relocation) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/relocation/solution.py)
 | [Rijeci](https://open.kattis.com/problems/rijeci) | Fibonacci Numbers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rijeci/solution.py)
 | [Roaming Romans](https://open.kattis.com/problems/romans) | I/O Only| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/roaming-romans/solution.py)
+| [Roll Call](https://open.kattis.com/problems/rollcall) | Hash Map | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rollcall/solution.py)
 | [Run-Length Encoding, Run!](https://open.kattis.com/problems/runlengthencodingrun) | Cipher, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/runlengthencodingrun/solution.py)
 | [Saving Daylight](https://open.kattis.com/problems/savingdaylight) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/saving-daylight/solution.py)
 | [Saving For Retirement](https://open.kattis.com/problems/savingforretirement) | Brute force | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/saving-for-retirement/solution.py)
