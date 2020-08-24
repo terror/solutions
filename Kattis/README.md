@@ -208,6 +208,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Shopaholic](https://open.kattis.com/problems/shopaholic) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shopaholic/solution.cpp)
 | [Sibice](https://open.kattis.com/problems/sibice) | Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sibice/solution.py)
 | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sidewayssorting/solution.py)
+| [Digit Product](https://open.kattis.com/problems/sifferprodukt) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sifferprodukt/solution.py)
 | [Simon Says](https://open.kattis.com/problems/simonsays) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon-says/solution.py)
 | [Simon](https://open.kattis.com/problems/simon) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simon/solution.py)
 | [Simple Addition](https://open.kattis.com/problems/simpleaddition) | Big Integer | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/simpleaddition/solution.py)
