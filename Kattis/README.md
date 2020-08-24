@@ -14,6 +14,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Akcija](https://open.kattis.com/problems/akcija) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/akcija/solution.py) |
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Alphabet](https://open.kattis.com/problems/alphabet) | LIS | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabet/solution.py) 
+| [Alphabet Animals](https://open.kattis.com/problems/alphabetanimals) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabetanimals/solution.py)
 | [Another Candies](https://open.kattis.com/problems/anothercandies) | Modular Arithmetic | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/another-candies/solution.cs) |
 | [Another Brick in the Wall](https://open.kattis.com/problems/anotherbrick) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anotherbrick/solution.cpp) |
 | [Anthony and Diablo](https://open.kattis.com/problems/anthonyanddiablo) | Circles | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anthony-and-diablo/solution.cs) |
