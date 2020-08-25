@@ -8,6 +8,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [A Different Problem](https://open.kattis.com/problems/different) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/a-different-problem/solution.py) |
 | [A Prize No One Can Win](https://open.kattis.com/problems/aprizenoonecanwin) | Greedy, Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/a-prize-no-one-can-win/solution.py) |
 | [ABC](https://open.kattis.com/problems/abc) | Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/abc/solution.py) |
+| [Above Average](https://open.kattis.com/problems/aboveaverage) | Math, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/aboveaverage/solution.py) |
 | [ACM Contest Scoring](https://open.kattis.com/problems/acm) | Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/acm-contest-scoring/solution.py) |
 | [Association for Computing Machinery](https://open.kattis.com/problems/acm2) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/acm2/solution.cpp) |
 | [Adding Words](https://open.kattis.com/problems/addingwords) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/addingwords/solution.py) |
