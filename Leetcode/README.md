@@ -5,6 +5,7 @@ Solutions to problems from [Leetcode](https://leetcode.com/).
 | Problem | Category | Solution |
 | - | - | - |
 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/average-levels-binary-tree/solution.py) |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/container-most-water/solution.py) |
 | [Create Target Array](https://leetcode.com/problems/create-target-array-in-the-given-order/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/create-target-array/solution.cs) |
 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-the-duplicate-number/solution.cpp) |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/find-duplicates-in-array/solution.py) |
