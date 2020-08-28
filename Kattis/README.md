@@ -59,6 +59,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Chanukah Challenge](https://open.kattis.com/problems/chanukahchallenge) | Formula, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/chanukah-challenge/solution.py)
 | [Character Development](https://open.kattis.com/problems/character) | Math, Formula | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/character/solution.cpp)
 | [Climbing Worm](https://open.kattis.com/problems/climbingworm) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/climbingworm/solution.cpp)
+| [Closing the Loop](https://open.kattis.com/problems/closingtheloop) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/closingtheloop/solution.py)
 | [Radio Commercials](https://open.kattis.com/problems/commercials) | Max 1D Range Sum | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/commercials/solution.cpp)
 | [Competitive Arcade Basketball](https://open.kattis.com/problems/competitivearcadebasketball) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/competitivearcadebasketball/solution.py)
 | [Compound Words](https://open.kattis.com/problems/compoundswords) | Hash Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/compound-words/solution.py)
