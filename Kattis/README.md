@@ -53,6 +53,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Boss Battle](https://open.kattis.com/problems/bossbattle) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/boss-battle/solution.py)
 | [Broken Swords](https://open.kattis.com/problems/brokenswords) | Counting, Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/brokenswords/solution.py)
 | [Bus](https://open.kattis.com/problems/bus) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bus/solution.py)
+| [Bus Numbers](https://open.kattis.com/problems/busnumbers) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/busnumbers/solution.py)
 | [CD](https://open.kattis.com/problems/cd) | Hash Set | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cd/solution.cpp)
 | [Cetiri](https://open.kattis.com/problems/cetiri) | Array, Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cetiri/solution.py)
 | [Cetvrta](https://open.kattis.com/problems/cetvrta) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cetvrta/solution.py)
