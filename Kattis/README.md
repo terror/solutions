@@ -212,6 +212,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Shattered Cake](https://open.kattis.com/problems/shatteredcake) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shattered-cake/solution.py)
 | [Shiritori](https://open.kattis.com/problems/shiritori) | Hash Set | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shiritori/solution.cpp)
 | [Shopaholic](https://open.kattis.com/problems/shopaholic) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shopaholic/solution.cpp)
+| [Shortest Path 1](https://open.kattis.com/problems/shortestpath1) | SSSP | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/shortestpath1/solution.cpp)
 | [Sibice](https://open.kattis.com/problems/sibice) | Euclidian Distance | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sibice/solution.py)
 | [Sideways Sorting](https://open.kattis.com/problems/sidewayssorting) | Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sidewayssorting/solution.py)
 | [Digit Product](https://open.kattis.com/problems/sifferprodukt) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/sifferprodukt/solution.py)
