@@ -10,7 +10,10 @@ using namespace std;
 typedef long long ll;
 ll INF = 1000000000;
 
+void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
+
 int main() {
+  fast();
   ll n, m, q, s;
   while (cin >> n >> m >> q >> s) {
     if (n == 0 && m == 0 && q == 0 && s == 0) break;
@@ -26,16 +29,18 @@ int main() {
     }
 
     // dijk
-    queue<ll> x;
-    x.push(s);
+    priority_queue<pll, vector<pll>, greater<pll> > x;
+    x.push(mp(0, s));
     d[s] = 0;
     while (!x.empty()) {
-      ll curr = x.front();
+      ll v = x.top().second;
+      ll d_v = x.top().first;
       x.pop();
-      for (auto e : adj[curr]) {
-        if (d[curr] + e.s < d[e.f]) {
-          d[e.f] = d[curr] + e.s;
-          x.push(e.f);
+      if (d_v != d[v]) continue;
+      for (auto e : adj[v]) {
+        if (d[v] + e.s < d[e.f]) {
+          d[e.f] = d[v] + e.s;
+          x.push(mp(d[e.f], e.f));
         }
       }
     }
@@ -43,6 +48,7 @@ int main() {
     for (ll i = 0; i < q; i++) {
       ll x;
       cin >> x;
+
       if (d[x] >= INF / 2)
         cout << "Impossible"
              << "\n";
