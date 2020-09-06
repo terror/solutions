@@ -112,6 +112,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [This Ain't Your Grandpa's Checkerboard](https://open.kattis.com/problems/thisaintyourgrandpascheckerboard) | 2D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/grandpascheckerboard/solution.cpp)
 | [Grass Seed](https://open.kattis.com/problems/grassseed) | Quadrilaterals | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/grassseed/solution.cpp)
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/greedilyincreasing/solution.py)
+| [Growling Gears](https://open.kattis.com/problems/growlinggears) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/growlinggears/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
 | [Hardware](https://open.kattis.com/problems/hardware) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardware/solution.py)
