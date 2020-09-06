@@ -201,6 +201,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Reachable Roads](https://open.kattis.com/problems/reachableroads) | Graphs | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/reachableroads/solution.cpp)
 | [Recount](https://open.kattis.com/problems/recount) | Hash Table, Easier | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/recount/solution.cs)
 | [Relocation](https://open.kattis.com/problems/relocation) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/relocation/solution.py)
+| [Rhyming Slang](https://open.kattis.com/problems/rhyming) | String Comparison | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rhyming/solution.py)
 | [Rijeci](https://open.kattis.com/problems/rijeci) | Fibonacci Numbers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rijeci/solution.py)
 | [Roaming Romans](https://open.kattis.com/problems/romans) | I/O Only| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/roaming-romans/solution.py)
 | [Roll Call](https://open.kattis.com/problems/rollcall) | Hash Map | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/rollcall/solution.py)
