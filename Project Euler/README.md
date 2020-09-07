@@ -11,4 +11,5 @@ Solutions to problems from [Project Euler](https://projecteuler.net/).
 | [8 - Largest product in a series](https://projecteuler.net/problem=8) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/008/solution.py) |
 | [10 - Summation of primes](https://projecteuler.net/problem=10) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/010/solution.py) |
 | [13 - Large Sum](https://projecteuler.net/problem=13) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/013/solution.py) |
-| [14 - Longest Collatz Sequence](https://projecteuler.net/problem=13) | Math, Collatz Sequence | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/014/solution.py) |
+| [14 - Longest Collatz Sequence](https://projecteuler.net/problem=14) | Math, Collatz Sequence | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/014/solution.py) |
+| [16 - Power digit sum](https://projecteuler.net/problem=16) | Math, Powers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/016/solution.py) |
