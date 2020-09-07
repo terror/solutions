@@ -166,6 +166,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Moving Day](https://open.kattis.com/problems/movingday) | 3D Geometry | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/movingday/solution.py)
 | [Music Your Way](https://open.kattis.com/problems/musicyourway) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/musicyourway/solution.py)
 | [Nasty Hacks](https://open.kattis.com/problems/nastyhacks) | Control Flow | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/nastyhacks/solution.cs)
+| [Natrij](https://open.kattis.com/problems/natrij) | Time, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/natrij/solution.py)
 | [Not Amused](https://open.kattis.com/problems/notamused) | Hash Table | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/notamused/solution.py)
 | [Number Fun](https://open.kattis.com/problems/numberfun) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/number-fun/solution.py)
 | [Numbers On a Tree](https://open.kattis.com/problems/numbertree) | Binary Heap Indexing | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/numbertree/solution.cpp)
