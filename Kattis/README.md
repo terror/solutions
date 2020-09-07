@@ -116,6 +116,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Growling Gears](https://open.kattis.com/problems/growlinggears) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/growlinggears/solution.py)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
+| [Happy Happy Prime Prime](https://open.kattis.com/problems/happyprime) | Cycle Finding | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/happyprime/solution.py)
 | [Hardware](https://open.kattis.com/problems/hardware) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardware/solution.py)
 | [Hardwood Species](https://open.kattis.com/problems/hardwoodspecies) | Hash Table, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hardwoodspecies/solution.py)
 | [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers) | Math Simulation, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/harshadnumbers/solution.py)
