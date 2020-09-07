@@ -13,3 +13,4 @@ Solutions to problems from [Project Euler](https://projecteuler.net/).
 | [13 - Large Sum](https://projecteuler.net/problem=13) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/013/solution.py) |
 | [14 - Longest Collatz Sequence](https://projecteuler.net/problem=14) | Math, Collatz Sequence | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/014/solution.py) |
 | [16 - Power digit sum](https://projecteuler.net/problem=16) | Math, Powers | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/016/solution.py) |
+| [20 - Factorial digit sum](https://projecteuler.net/problem=20) | Math, Factorial | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Project%20Euler/020/solution.py) |
