@@ -156,6 +156,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [The Dragon of Loowater](https://open.kattis.com/problems/loowater) | Greedy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/loowater/solution.cpp)
 | [Lost Lineup](https://open.kattis.com/problems/lostlineup) | 1D Array, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/lostlineup/solution.cpp)
 | [Luhn's Checksum Algorithm](https://open.kattis.com/problems/luhnchecksum) | Real Life, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/luhns-checksum/solution.py)
+| [Magical Cows](https://open.kattis.com/problems/magicalcows) | DP | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/magicalcows/solution.cpp)
 | [Marko](https://open.kattis.com/problems/marko) | Hash Table, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marko/solution.py)
 | [Mars Window](https://open.kattis.com/problems/marswindow) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/marswindow/solution.py)
 | [Mastering Mastermind](https://open.kattis.com/problems/mastermind) | 1D Array, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/mastermind/solution.py)
