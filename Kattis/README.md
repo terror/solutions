@@ -264,6 +264,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Texture Analysis](https://open.kattis.com/problems/textureanalysis) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/textureanalysis/solution.py)
 | [The Owl and The Fox](https://open.kattis.com/problems/owlandfox) | Complete Search | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/the-owl-and-the-fox/solution.py)
 | [The Grand Adventure](https://open.kattis.com/problems/thegrandadventure) | Stack Simulation | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/thegrandadventure/solution.py)
+| [Tildes](https://open.kattis.com/problems/tildes) | UDFS, Standard | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/tildes/solution.cpp)
 | [Timeloop](https://open.kattis.com/problems/timeloop) | Repetition Only | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/timeloop/solution.cs)
 | [To Lower](https://open.kattis.com/problems/tolower) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/to-lower/solution.py)
 | [Toilet](https://open.kattis.com/problems/toilet) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/toilet/solution.cpp)
