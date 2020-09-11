@@ -17,4 +17,5 @@ Solutions to problems from the [CSES](https://cses.fi/problemset/list/) problem 
 | [Maximum Subarray Sum](https://cses.fi/problemset/task/1643) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/maximumsubarraysum.cpp) |
 | [Stick Lengths](https://cses.fi/problemset/task/1074) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/sticklengths.cpp) |
 | [Tasks and Deadlines](https://cses.fi/problemset/task/1630) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/tasksanddeadlines.cpp) |
+| [Counting Rooms](https://cses.fi/problemset/task/1192) | Graph Algorithms | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Graph%20Algorithms/countingrooms.cpp) |
 | [Building Roads](https://cses.fi/problemset/task/1666) | Graph Algorithms | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Graph%20Algorithms/buildingroads.cpp) |
