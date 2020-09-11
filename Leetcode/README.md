@@ -14,6 +14,7 @@ Solutions to problems from [Leetcode](https://leetcode.com/).
 | [Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/height-checker/solution.cs) |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Python3, C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/maximum-subarray) |
 | [N Repeated Element in 2n Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/n-repeated-element-2n-array/solution.cs) |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/number-of-islands/solution.py) |
 | [Numbers Smaller Than Current](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/number-smaller-than-current/solution.cs) |
 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/path-sum/solution.cpp) 
 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Leetcode/single-numbery/solution.cs) |
