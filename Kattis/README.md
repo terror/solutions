@@ -22,6 +22,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Anthony and Diablo](https://open.kattis.com/problems/anthonyanddiablo) | Circles | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/anthony-and-diablo/solution.cs) |
 | [Honour Thy (Apaxian) Parent](https://open.kattis.com/problems/apaxianparent) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxianparent/solution.py) |
 | [Apaxiaaaaaaaaaaaans!](https://open.kattis.com/problems/apaxiaaans) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/apaxians/solution.py) |
+| [Arithmetic](https://open.kattis.com/problems/arithmetic) | Base Number Conversion | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/arithmetic/solution.py) |
 | [Army Strength (Easy)](https://open.kattis.com/problems/armystrengtheasy) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengtheasy/solution.py) |
 | [Army Strength (Hard)](https://open.kattis.com/problems/armystrengthhard) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/armystrengthhard/solution.py) |
 | [Artichoke](https://open.kattis.com/problems/artichoke) | Function | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/artichoke/solution.py) |
@@ -74,6 +75,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Cooking Water](https://open.kattis.com/problems/cookingwater) | Complete Search | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cookingwater/solution.cpp)
 | [Costume Contest](https://open.kattis.com/problems/costumecontest) | Hash Table, Frequency Counting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/costume-contest/solution.py)
 | [Counting Clauses](https://open.kattis.com/problems/coutingclauses) | Special, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/countingclauses/solution.py)
+| [Counting Stars](https://open.kattis.com/problems/countingstars) | Flood Fill, Standard | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/countingstars/solution.cpp)
 | [Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum) | Cipher, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/crypto-conundrum/solution.py)
 | [Das Blinkenlights](https://open.kattis.com/problems/dasblinkenlights) | GCD, LCM | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/das-blinkenlights/solution.py)
 | [Datum](https://open.kattis.com/problems/datum) | Time, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/datum/solution.py)
