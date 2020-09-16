@@ -19,3 +19,6 @@ Solutions to problems from the [CSES](https://cses.fi/problemset/list/) problem 
 | [Tasks and Deadlines](https://cses.fi/problemset/task/1630) | Sorting & Searching | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Sorting%20and%20Searching/tasksanddeadlines.cpp) |
 | [Counting Rooms](https://cses.fi/problemset/task/1192) | Graph Algorithms | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Graph%20Algorithms/countingrooms.cpp) |
 | [Building Roads](https://cses.fi/problemset/task/1666) | Graph Algorithms | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Graph%20Algorithms/buildingroads.cpp) |
+| [Dice Combinations](https://cses.fi/problemset/task/1633) | DP | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Dynamic%Programming/dicecombinations.cpp) |
+| [Minimizing Coins](https://cses.fi/problemset/task/1634) | DP | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Dynamic%20Programming/minimizingcoins.cpp) |
+| [Coin Combinations I](https://cses.fi/problemset/task/1635) | DP | [C++](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/Dynamic%20Programming/coincombinations1.cpp) |
