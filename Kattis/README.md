@@ -35,6 +35,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Baby Bites](https://open.kattis.com/problems/babybites) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/baby-bites/solution.py) |
 | [Backspace](https://open.kattis.com/problems/backspace) | List, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/backspace/solution.py) |
 | [Bacon, Eggs, and Spam](https://open.kattis.com/problems/baconeggsandspam) | Hash Table, Sorting| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bacon-eggs-spam/solution.py) |
+| [Distributing Ballot Boxes](https://open.kattis.com/problems/ballotboxes) | Greedy, Priority Queue | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ballotboxes/solution.py) 
 | [Baloni](https://open.kattis.com/problems/baloni) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/baloni/solution.py) 
 | [Bank Queue](https://open.kattis.com/problems/bank) | Greedy, Priority Queue| [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bank-queue/solution.py)
 | [Bard](https://open.kattis.com/problems/bard) | Hash Set | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bard/solution.py)
