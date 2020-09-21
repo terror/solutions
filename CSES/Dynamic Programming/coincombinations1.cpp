@@ -2,7 +2,7 @@
 
 using namespace std;
 typedef long long ll;
-const int MXN = 2e5, INF = 100000001, MOD = 1000000007;
+const int MXN = 2e5, INF = 1000001, MOD = 1000000007;
 int a[MXN];
 
 int main() {
