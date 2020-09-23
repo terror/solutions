@@ -88,6 +88,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Different Distances](https://open.kattis.com/problems/differentdistances) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/different-distances/solution.cs)
 | [Digits](https://open.kattis.com/problems/digits) | Recursion | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/digits/solution.cpp)
 | [Dirty Driving](https://open.kattis.com/problems/dirtydriving) | Sorting, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/dirty-driving/solution.py)
+| [Dominoes 2](https://open.kattis.com/problems/dominoes2) | Graphs, DFS | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/dominoes2/solution.cpp)
 | [Drinking Song](https://open.kattis.com/problems/drinkingsong) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/drinking-song/solution.py)
 | [DRM Messages](https://open.kattis.com/problems/drmmessages) | Cipher | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/drmmessages/solution.py)
 | [Early Winter](https://open.kattis.com/problems/earlywinter) | Control Flow | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/early-winter/solution.py)
