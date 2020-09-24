@@ -13,6 +13,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Association for Computing Machinery](https://open.kattis.com/problems/acm2) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/acm2/solution.cpp) |
 | [Adding Words](https://open.kattis.com/problems/addingwords) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/addingwords/solution.py) |
 | [Akcija](https://open.kattis.com/problems/akcija) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/akcija/solution.py) |
+| [Alice in the Digital World](https://open.kattis.com/problems/alicedigital) | 1D Range Sum | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alicedigital/solution.py) |
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Alphabet](https://open.kattis.com/problems/alphabet) | LIS | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabet/solution.py) 
 | [Alphabet Animals](https://open.kattis.com/problems/alphabetanimals) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabetanimals/solution.py)
