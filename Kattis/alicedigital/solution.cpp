@@ -1,17 +1,14 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-const int MXN = 2e5;
 int n, m, t;
 
 int main() {
   cin >> t;
   while (t--) {
     cin >> n >> m;
-    int a[MXN];
-    vector<int> idx;
+    int a[n], ans = 0;
     for (int i = 0; i < n; ++i) cin >> a[i];
-    int ans = 0;
     for (int i = 0; i < n; ++i) {
       if (a[i] == m) {
         int msf = m;
