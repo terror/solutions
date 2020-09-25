@@ -13,7 +13,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Association for Computing Machinery](https://open.kattis.com/problems/acm2) | Sorting, Easier | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/acm2/solution.cpp) |
 | [Adding Words](https://open.kattis.com/problems/addingwords) | Hash Table, Harder | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/addingwords/solution.py) |
 | [Akcija](https://open.kattis.com/problems/akcija) | Sorting, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/akcija/solution.py) |
-| [Alice in the Digital World](https://open.kattis.com/problems/alicedigital) | 1D Range Sum | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alicedigital/solution.py) |
+| [Alice in the Digital World](https://open.kattis.com/problems/alicedigital) | 1D Range Sum | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alicedigital/solution.cpp) |
 | [Almost Perfect](https://open.kattis.com/problems/almostperfect) | Math | [C#](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/almost-perfect/solution.cs) |
 | [Alphabet](https://open.kattis.com/problems/alphabet) | LIS | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabet/solution.py) 
 | [Alphabet Animals](https://open.kattis.com/problems/alphabetanimals) | Ad Hoc | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/alphabetanimals/solution.py)
@@ -60,6 +60,8 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Bus](https://open.kattis.com/problems/bus) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bus/solution.py)
 | [Bus Numbers](https://open.kattis.com/problems/busnumbers) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/busnumbers/solution.py)
 | [Bus Numbers 2](https://open.kattis.com/problems/busnumbers2) | Math, Complete Search | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/busnumbers2/solution.py)
+| [Calculating Dart Scores](https://open.kattis.com/problems/calculatingdartscores) | Complete Search | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/calculatingdartscores/solution.cpp)
+| [Candle Box](https://open.kattis.com/problems/candlebox) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/candlebox/solution.cpp)
 | [Carousel Rides](https://open.kattis.com/problems/carousel) | Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/carousel/solution.py)
 | [CD](https://open.kattis.com/problems/cd) | Hash Set | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cd/solution.cpp)
 | [Cetiri](https://open.kattis.com/problems/cetiri) | Array, Sorting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/cetiri/solution.py)
@@ -123,6 +125,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Grass Seed](https://open.kattis.com/problems/grassseed) | Quadrilaterals | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/grassseed/solution.cpp)
 | [Greedily Increasing Subsequence](https://open.kattis.com/problems/greedilyincreasing) | 1D Array, Medium | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/greedilyincreasing/solution.py)
 | [Growling Gears](https://open.kattis.com/problems/growlinggears) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/growlinggears/solution.py)
+| [Half a Cookie](https://open.kattis.com/problems/halfacookie) | Geometry / Formula| [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/halfacookie/solution.cpp)
 | [Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hanging-out-on-the-terrace/solution.py)
 | [Hangman](https://open.kattis.com/problems/hangman) | String Matching, Standard | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/hangman/solution.py)
 | [Happy Happy Prime Prime](https://open.kattis.com/problems/happyprime) | Cycle Finding | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/happyprime/solution.py)
@@ -153,6 +156,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Kemija](https://open.kattis.com/problems/kemija) | Strings | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kemija/solution.py)
 | [Keywords](https://open.kattis.com/problems/keywords) | Hash Set, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/keywords/solution.py)
 | [Kitten](https://open.kattis.com/problems/kitten) | Trees, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kitten/solution.py)
+| [Kolone](https://open.kattis.com/problems/kolone) | Strings, Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kolone/solution.cpp)
 | [Kornislav](https://open.kattis.com/problems/kornislav) | Quadrilaterals | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/kornislav/solution.py)
 | [Krizaljka](https://open.kattis.com/problems/krizaljka) | Output Formatting | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/krizaljka/solution.py)
 | [Ladder](https://open.kattis.com/problems/ladder) | Triangles | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/ladder/solution.py)
