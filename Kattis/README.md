@@ -56,6 +56,7 @@ Solutions to problems from the [Kattis Problem Archive](https://open.kattis.com/
 | [Boat Parts](https://open.kattis.com/problems/boatparts) | Hash Set, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/boatparts/solution.py)
 | [Booking A Room](https://open.kattis.com/problems/booking) | Array, Easier | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/booking-a-room/solution.py)
 | [Boss Battle](https://open.kattis.com/problems/bossbattle) | Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/boss-battle/solution.py)
+| [Bounding Robots](https://open.kattis.com/problems/boundingrobots) | Simulation | [C++](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/boundingrobots/solution.cpp)
 | [Broken Swords](https://open.kattis.com/problems/brokenswords) | Counting, Easy | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/brokenswords/solution.py)
 | [Bus](https://open.kattis.com/problems/bus) | Math | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/bus/solution.py)
 | [Bus Numbers](https://open.kattis.com/problems/busnumbers) | DAT | [Python3](https://github.com/terror/CompetitiveProgramming/tree/master/Kattis/busnumbers/solution.py)
