@@ -1,59 +1,20 @@
 from collections import Counter
 
-
 def main():
-    a = list(map(int, input().split()))
-    b = list(map(int, input().split()))
-    n = a[0]
-    t = a[1]
-    if t == 1:
-        print(compute_xy(b))
-    if t == 2:
-        print(compute_duplicates(b))
-    if t == 3:
-        print(compute_int(b, n))
-    if t == 4:
-        compute_median(b)
-    if t == 5:
-        compute_nums_between(b)
+    n, t = map(int, input().split()); b = sorted(list(map(int, input().split())))
+    {1: lambda x: print(one(x)),
+     2: lambda x: print("Unique" if len(x) == len(set(x)) else "Contains duplicate"),
+     3: lambda x: print(three(x)),
+     4: lambda x: print(b[len(x) // 2] if len(x) % 2 == 1 else "{0} {1}".format(x[len(x) // 2 - 1], x[len(x) // 2])),
+     5: lambda x: print(*list(filter(lambda x: x >= 100 and x <= 999, b)), sep=" ")}[t](b)
 
-
-def compute_xy(b):
-    b.sort()
+def one(b):
     for i in range(1, 7777):
-        if i in b and (7777 - i) in b:
-            return "Yes"
+        if i in b and 7777 - i in b: return "Yes"
     return "No"
 
+def three(b):
+    x, y = Counter(b).most_common(1)[0]; return x if y > len(b)/2 else -1
 
-def compute_duplicates(b):
-    if len(b) == len(set(b)):
-        return "Unique"
-    else:
-        return "Contains duplicate"
-
-
-def compute_int(b, n):
-    x, y = Counter(b).most_common(1)[0]
-    if y > n/2:
-        return x
-    else:
-        return -1
-
-
-def compute_median(b):
-    a = sorted(b)
-    index = len(b) // 2
-
-    if len(b) % 2 == 1:
-        print(a[index])
-    else:
-        print("{0} {1}".format(a[index - 1], a[index]))
-
-
-def compute_nums_between(b):
-    a = list(filter(lambda x: x >= 100 and x <= 999, sorted(b)))
-    print(*a, sep=' ')
-
-
-main()
+if __name__ == '__main__':
+    main()
