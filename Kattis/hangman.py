@@ -1,16 +1,10 @@
-s = input()
-g = list(input())
-m = 0
+from collections import Counter
 
-for i in range(len(g)):
-    if g[i] in s:
-        s = s.replace(g[i], '')
-        if len(s) == 0:
-            break
-    else:
-        m += 1
+s = Counter(input()); m = 0
 
-if m < 10:
-    print("WIN")
-else:
-    print("LOSE")
+for ch in list(input()):
+    if ch in s: s[ch] = 0
+    if not sum(s.values()): break
+    m += 1
+
+print("WIN" if m < 10 else "LOSE")

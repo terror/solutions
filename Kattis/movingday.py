@@ -1,8 +1,5 @@
+from functools import reduce
+
 n, V = list(map(int, input().split()))
 
-Max = 0
-for i in range(n):
-    a, b, c = list(map(int, input().split()))
-    if a*b*c > Max:
-        Max = a*b*c
-print(Max-V)
+print(max([reduce(lambda x, y: x * y, list(map(int, input().split()))) for _ in range(n)])-V)

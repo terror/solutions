@@ -5,33 +5,22 @@ def main():
     d = {}
 
     for i in sys.stdin:
-        i = list(map(str, i.split()))
-        if i[0] == 'define':
-            d[i[2]] = int(i[1])
-        if i[0] == 'eval':
-            print(eval(i, d))
+        q, *x = list(map(str, i.split()))
 
+        if q == 'define':
+            d[x[1]] = int(x[0])
 
-def eval(i, d):
-    if i[1] not in d or i[3] not in d:
-        return 'undefined'
-    n1 = d[i[1]]
-    n2 = d[i[3]]
-    if i[2] == '<':
-        if n1 < n2:
-            return 'true'
-        else:
-            return 'false'
-    if i[2] == '>':
-        if n1 > n2:
-            return 'true'
-        else:
-            return 'false'
-    if i[2] == '=':
-        if n1 == n2:
-            return 'true'
-        else:
-            return 'false'
+        if q == 'eval':
+            print('undefined' if not all(k in d for k in (x[0], x[2])) else ('true' if eval(x, d) else 'false'))
 
+def eval(i, d) -> bool:
+    a, b, c = i
 
-main()
+    return {
+        '>': lambda a, b: d[a] > d[b],
+        '<': lambda a, b: d[a] < d[b],
+        '=': lambda a, b: d[a] == d[b]
+    }[b](a, c)
+
+if __name__ == '__main__':
+    main()

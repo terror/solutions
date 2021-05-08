@@ -1,16 +1,5 @@
 def main():
     *problems, n = list(map(int, input().split()))
-    print(solve(problems, n))
-
-
-def solve(problems, n):
-    if n >= 3 and 0 not in problems:
-        if n <= sum(problems):
-            return "YES"
-        else:
-            return "NO"
-    else:
-        return "NO"
-
+    (lambda x, y: print("YES") if n >= 3 and 0 not in problems and n <= sum(problems) else print("NO"))(problems, n)
 
 main()

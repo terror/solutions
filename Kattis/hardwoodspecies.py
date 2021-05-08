@@ -1,17 +1,13 @@
 import sys
+from collections import Counter
 
-d = {}
+d = Counter()
+
 for i in sys.stdin:
-    if i.rstrip() == '':
-        break
-    i = str(i).replace('\n', '')
-    if i in d:
-        d[i] += 1
-    else:
-        d[i] = 1
-names = sorted([key for key, val in d.items()])
-tot = 0
-for key, val in d.items():
-    tot += val
-for i in names:
+    if i.rstrip() == '': break
+    d[str(i).replace('\n', '')] += 1
+
+tot = sum(d.values())
+
+for i in sorted([key for key, val in d.items()]):
     print('{} {:.6f}'.format(i, (100*d[i])/tot))

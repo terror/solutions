@@ -9,5 +9,4 @@ def main(s, d):
 
 
 if __name__ == "__main__":
-    s = list(input())
-    print(main(s, Counter(s)))
+    (lambda x: print(main(x, Counter(x))))(list(input()))
