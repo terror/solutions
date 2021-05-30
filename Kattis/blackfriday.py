@@ -1,21 +1,5 @@
-n = int(input())
-lst = list(map(int, input().split()))
+from collections import Counter
 
-d = {}
+n = int(input()); l = list(map(int, input().split())); m = max([k for k, v in Counter(l).items() if v == 1] or [0])
 
-for i in lst:
-    if i in d:
-        d[i] += 1
-    else:
-        d[i] = 1
-
-m = 0
-for key, val in d.items():
-    if val == 1:
-        if key > m:
-            m = key
-
-if m != 0:
-    print(lst.index(m)+1)
-else:
-    print('none')
+print(l.index(m)+1 if m != 0 else 'none')

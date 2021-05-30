@@ -1,27 +1,20 @@
 import sys
 from collections import Counter
-n, m = list(map(int, input().split()))
 
-d = {}
+n, m = list(map(int, input().split())); d = {}; ans = [];
 
-for i in range(n):
-    w, amount = list(map(str, input().split()))
-    d[w] = int(amount)
+for _ in range(n):
+    a, b = map(str, input().split())
+    d[a] = int(b)
 
-ans = []
-c = 0
 for _ in range(m):
     money = 0
     while True:
         i = sys.stdin.readline()
         if i.rstrip() == '.':
-            ans.append(money)
-            break
+            ans.append(money); break
         else:
-            i = i.split()
-            i = Counter(i)
-            for key, val in i.items():
-                if key in d:
-                    money += val*d[key]
+            for key, val in Counter(i.split()).items():
+                if key in d: money += val*d[key]
 
 print(*ans, sep='\n')
