@@ -1,31 +1,13 @@
-import sys
-n = int(input())
-d = {}
-c = {}
+import sys, collections
 
-for i in range(n):
-    topic, num, *words = list(map(str, input().split()))
-    d[topic] = words
-    c[topic] = 0
+def main(a, b):
+  for _ in range(int(input())):
+    name, *items = map(str, input().split()); a[name] = items[1:]
 
-while True:
-    i = sys.stdin.readline()
-    if i.rstrip() == '':
-        break
-    i = i.split()
-    for word in i:
-        for key, val in d.items():
-            if word in val:
-                c[key] += 1
+  for l in sys.stdin.readlines():
+    for k in a: b[k] += sum([l.split().count(c) for c in a[k]])
 
-m = 0
-for key, val in c.items():
-    if val > m:
-        m = val
+  print(*sorted([k for k, v in b.items() if v == max(b.values())]), sep="\n")
 
-ans = []
-for key, val in sorted(c.items(), reverse=True):
-    if val == m:
-        ans.append(key)
-
-print(*sorted(ans), sep='\n')
+if __name__ == '__main__':
+    main(collections.defaultdict(list), collections.Counter())
