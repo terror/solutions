@@ -11,15 +11,15 @@ d = {
 
 temp = {}
 for i in range(int(input())):
-    s = ''
-    for ch in input():
-        for key, val in d.items():
-            if ch in val:
-                s += key
-    if s in temp:
-        temp[s] += 1
-    else:
-        temp[s] = 1
+  s = ''
+  for ch in input():
+    for key, val in d.items():
+      if ch in val:
+        s += key
+  if s in temp:
+    temp[s] += 1
+  else:
+    temp[s] = 1
 
 s = input()
 print(temp[s] if s in temp else 0)

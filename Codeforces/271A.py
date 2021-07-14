@@ -1,6 +1,6 @@
-n = str(int(input())+1)
+n = str(int(input()) + 1)
 while len(set(n)) != len(n):
-    n = int(n)
-    n += 1
-    n = str(n)
+  n = int(n)
+  n += 1
+  n = str(n)
 print(n)

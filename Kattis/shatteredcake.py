@@ -4,7 +4,7 @@ N = int(input())
 
 area = 0
 for i in range(N):
-    a, b = list(map(int, input().split()))
-    area += a*b
+  a, b = list(map(int, input().split()))
+  area += a * b
 
-print(area//w)
+print(area // w)

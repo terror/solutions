@@ -24,6 +24,6 @@ grid = [list(map(int, g.split())) for g in g.split("\n") if g != ""]
 mx = 0
 # some weird bruteforce action, can prob also do dp or rcb
 for i in range(len(grid)):
-    curr = 0
-    for j in range(len(grid[i])):
-        print(grid[i][j])
+  curr = 0
+  for j in range(len(grid[i])):
+    print(grid[i][j])

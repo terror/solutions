@@ -1,9 +1,4 @@
-OP = {
-  '*': lambda x, y: x * y,
-  '+': lambda x, y: x + y,
-  '-': lambda x, y: x - y,
-  '/': lambda x, y: x // y
-}
+OP = {'*': lambda x, y: x * y, '+': lambda x, y: x + y, '-': lambda x, y: x - y, '/': lambda x, y: x // y}
 
 def main(a, b, c, d):
   ans = []

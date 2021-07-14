@@ -1,8 +1,8 @@
 n = int(input())
 
 if n % 4 == 0:
-    print("Even")
+  print("Even")
 elif n % 4 == 2:
-    print("Odd")
+  print("Odd")
 else:
-    print("Either")
+  print("Either")

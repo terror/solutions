@@ -1,10 +1,10 @@
 l = []
 for i in range(int(input())):
-    l.append(input())
+  l.append(input())
 
 if l == sorted(l):
-    print("INCREASING")
+  print("INCREASING")
 elif l == sorted(l, reverse=True):
-    print("DECREASING")
+  print("DECREASING")
 else:
-    print("NEITHER")
+  print("NEITHER")

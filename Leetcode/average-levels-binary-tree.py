@@ -5,18 +5,18 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def averageOfLevels(self, root: TreeNode) -> List[float]:
-        d, lvl, ans = collections.defaultdict(list), 0, []
+  def averageOfLevels(self, root: TreeNode) -> List[float]:
+    d, lvl, ans = collections.defaultdict(list), 0, []
 
-        def preorder(root, lvl):
-            if root is None:
-                return
-            d[lvl].append(root.val)
-            preorder(root.left, lvl+1)
-            preorder(root.right, lvl+1)
+    def preorder(root, lvl):
+      if root is None:
+        return
+      d[lvl].append(root.val)
+      preorder(root.left, lvl + 1)
+      preorder(root.right, lvl + 1)
 
-        preorder(root, lvl)
-        for k, v in d.items():
-            ans.append(sum(v)/len(v))
+    preorder(root, lvl)
+    for k, v in d.items():
+      ans.append(sum(v) / len(v))
 
-        return ans
+    return ans

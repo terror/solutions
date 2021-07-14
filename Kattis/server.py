@@ -5,10 +5,10 @@ d = 0
 sum = 0
 
 for i in range(a[0]):
-    sum += b[i]
-    if sum <= c:
-        d += 1
-    else:
-        break
+  sum += b[i]
+  if sum <= c:
+    d += 1
+  else:
+    break
 
 print(d)

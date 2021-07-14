@@ -1,7 +1,8 @@
 from collections import defaultdict
 
 while True:
-  d = defaultdict(list); n = int(input())
+  d = defaultdict(list)
+  n = int(input())
 
   if n == 0:
     break

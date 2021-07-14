@@ -9,3 +9,6 @@ exec *name:
 
 update:
   python3 ./bin/update > ./README.md
+
+fmt-py:
+  yapf --in-place --recursive **/*.py

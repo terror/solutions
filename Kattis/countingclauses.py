@@ -1,9 +1,9 @@
 n, m = list(map(int, input().split()))
 
 for i in range(n):
-    c = list(map(int, input().split()))
+  c = list(map(int, input().split()))
 
 if n >= 8:
-    print('satisfactory')
+  print('satisfactory')
 else:
-    print('unsatisfactory')
+  print('unsatisfactory')

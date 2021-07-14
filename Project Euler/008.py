@@ -2,10 +2,10 @@ num = "7316717653133062491922511967442657474235534919493496983520312774506326239
 Max = 0
 
 for i in range(0, len(num) - 13 + 1):
-    p = 1
-    for j in range(i, i + 13):
-        p *= int(num[j])
-    if p > Max:
-        Max = p
+  p = 1
+  for j in range(i, i + 13):
+    p *= int(num[j])
+  if p > Max:
+    Max = p
 
 print(Max)

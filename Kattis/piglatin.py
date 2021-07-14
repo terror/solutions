@@ -1,13 +1,6 @@
 import sys
 
-V = [
-  'a',
-  'e',
-  'i',
-  'o',
-  'u',
-  'y'
-]
+V = ['a', 'e', 'i', 'o', 'u', 'y']
 
 def main(l):
   for s in l:
