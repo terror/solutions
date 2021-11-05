@@ -1,40 +1,40 @@
-use std::{io, process};
+use std::io::stdin;
 
 fn main() {
-    let mut x: String = String::new();
-    let mut y: String = String::new();
+  let mut x = String::new();
+  let mut y = String::new();
 
-    io::stdin().read_line(&mut x);
-    io::stdin().read_line(&mut y);
+  stdin().read_line(&mut x).unwrap();
+  stdin().read_line(&mut y).unwrap();
 
-    let cx: i32 = cnt(&x);
-    let cy: i32 = cnt(&y);
+  let cx = cnt(&x);
+  let cy = cnt(&y);
 
-    if cx * cy == 0 {
-        println!("{}", 0);
-    } else {
-        let mut ans: String = String::from("S");
+  if cx * cy == 0 {
+    println!("{}", 0);
+  } else {
+    let mut ans = String::from("S");
 
-        for i in 0..((cx * cy) - 1) {
-            ans += "(S";
-        }
-
-        ans += "(0";
-
-        for i in 0..(cx * cy) {
-            ans += ")";
-        }
-
-        println!("{}", ans);
+    for _ in 0..((cx * cy) - 1) {
+      ans += "(S";
     }
+
+    ans += "(0";
+
+    for _ in 0..(cx * cy) {
+      ans += ")";
+    }
+
+    println!("{}", ans);
+  }
 }
 
 fn cnt(s: &String) -> i32 {
-    let mut cnt: i32 = 0;
-    for i in s.chars() {
-        if i == 'S' {
-            cnt += 1;
-        }
+  let mut cnt: i32 = 0;
+  for c in s.chars() {
+    if c == 'S' {
+      cnt += 1;
     }
-    cnt
+  }
+  cnt
 }
