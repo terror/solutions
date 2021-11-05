@@ -8,7 +8,8 @@ int main() {
   cin >> n;
   char a[n][n];
   for (int i = 0; i < n; ++i)
-    for (int j = 0; j < n; ++j) cin >> a[i][j];
+    for (int j = 0; j < n; ++j)
+      cin >> a[i][j];
 
   bool ok = true;
   for (int i = 0; i < n; ++i) {
@@ -17,18 +18,23 @@ int main() {
     for (int j = 0; j < n; ++j) {
       if (a[i][j] == 'W') {
         ++w;
-        if (curr == 'B') c = 1;
+        if (curr == 'B')
+          c = 1;
         curr = 'W', ++c;
-        if (c > 3) ok = false;
+        if (c > 3)
+          ok = false;
       }
       if (a[i][j] == 'B') {
         ++b;
-        if (curr == 'W') c = 1;
+        if (curr == 'W')
+          c = 1;
         curr = 'B', ++c;
-        if (c > 3) ok = false;
+        if (c > 3)
+          ok = false;
       }
     }
-    if (b != w) ok = false;
+    if (b != w)
+      ok = false;
   }
 
   if (ok) {
@@ -38,18 +44,23 @@ int main() {
       for (int j = 0; j < n; ++j) {
         if (a[j][i] == 'W') {
           ++w;
-          if (curr == 'B') c = 1;
+          if (curr == 'B')
+            c = 1;
           curr = 'W', ++c;
-          if (c > 3) ok = false;
+          if (c > 3)
+            ok = false;
         }
         if (a[j][i] == 'B') {
           ++b;
-          if (curr == 'W') c = 1;
+          if (curr == 'W')
+            c = 1;
           curr = 'B', ++c;
-          if (c > 3) ok = false;
+          if (c > 3)
+            ok = false;
         }
       }
-      if (b != w) ok = false;
+      if (b != w)
+        ok = false;
     }
   }
   ok ? cout << 1 : cout << 0;

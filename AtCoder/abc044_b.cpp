@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -55,7 +55,8 @@ int main() {
   string s;
   cin >> s;
   map<char, int> mp;
-  for (int i = 0; i < s.length(); ++i) ++mp[s[i]];
+  for (int i = 0; i < s.length(); ++i)
+    ++mp[s[i]];
   for (auto x : mp) {
     if (x.s % 2 != 0) {
       cout << "No";
@@ -67,4 +68,3 @@ int main() {
 
   return 0;
 }
-

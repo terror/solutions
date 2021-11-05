@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -53,7 +53,7 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 int main() {
   fast();
   cin >> n;
-  vector<pair<int, int> > v;
+  vector<pair<int, int>> v;
   for (int i = 0; i < n; ++i) {
     int a, b;
     cin >> a >> b;
@@ -63,10 +63,10 @@ int main() {
   cin >> x;
   int ans = 0;
   for (auto u : v) {
-    if (u.s >= x) ++ans;
+    if (u.s >= x)
+      ++ans;
   }
   cout << ans;
 
   return 0;
 }
-

@@ -38,7 +38,8 @@ int main() {
   set<char> c;
   string s;
   cin >> s;
-  for (int i = 0; i < s.length(); ++i) c.insert(s[i]);
+  for (int i = 0; i < s.length(); ++i)
+    c.insert(s[i]);
   if (s.length() == c.size())
     cout << "yes";
   else
@@ -46,4 +47,3 @@ int main() {
 
   return 0;
 }
-

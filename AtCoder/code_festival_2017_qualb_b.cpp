@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,36 +50,35 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    map<int, int> a, b;
-    cin >> n;
-    F0R(n) {
-        int x;
-        cin >> x;
-        ++a[x];
+  fast();
+  map<int, int> a, b;
+  cin >> n;
+  F0R(n) {
+    int x;
+    cin >> x;
+    ++a[x];
+  }
+  cin >> m;
+  F0R(m) {
+    int x;
+    cin >> x;
+    ++b[x];
+  }
+  for (auto u : a) {
+    if (b.find(u.f) != b.end()) {
+      if (u.s < b[u.f]) {
+        cout << "NO";
+        return 0;
+      }
     }
-    cin >> m;
-    F0R(m) {
-        int x;
-        cin >> x;
-        ++b[x];
+  }
+  for (auto u : b) {
+    if (a.find(u.f) == a.end()) {
+      cout << "NO";
+      return 0;
     }
-    for (auto u : a) {
-        if (b.find(u.f) != b.end()) {
-            if (u.s < b[u.f]) {
-                cout << "NO";
-                return 0;
-            }
-        }
-    }
-    for (auto u : b) {
-        if (a.find(u.f) == a.end()) {
-            cout << "NO";
-            return 0;
-        }
-    }
+  }
 
-    cout << "YES";
-    return 0;
+  cout << "YES";
+  return 0;
 }
-

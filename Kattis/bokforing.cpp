@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -51,35 +51,35 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    vll v, f;
-    cin >> n >> m;
-    v.assign(n, 0), f.assign(n, -1);
-    int curr = 0, t = 0;
-    F0R(m) {
-        string O;
-        cin >> O;
-        if (O == "SET") {
-            int idx, val;
-            cin >> idx >> val;
-            --idx;
-            v[idx] = val, f[idx] = t;
-        }
-        if (O == "PRINT") {
-            int i;
-            cin >> i;
-            --i;
-            if (f[i] == t) {
-                cout << v[i] << nl;
-                continue;
-            }
-            v[i] = curr, f[i] = t;
-            cout << curr << nl;
-        }
-        if (O == "RESTART") {
-            cin >> curr;
-            ++t;
-        }
+  fast();
+  vll v, f;
+  cin >> n >> m;
+  v.assign(n, 0), f.assign(n, -1);
+  int curr = 0, t = 0;
+  F0R(m) {
+    string O;
+    cin >> O;
+    if (O == "SET") {
+      int idx, val;
+      cin >> idx >> val;
+      --idx;
+      v[idx] = val, f[idx] = t;
     }
-    return 0;
+    if (O == "PRINT") {
+      int i;
+      cin >> i;
+      --i;
+      if (f[i] == t) {
+        cout << v[i] << nl;
+        continue;
+      }
+      v[i] = curr, f[i] = t;
+      cout << curr << nl;
+    }
+    if (O == "RESTART") {
+      cin >> curr;
+      ++t;
+    }
+  }
+  return 0;
 }

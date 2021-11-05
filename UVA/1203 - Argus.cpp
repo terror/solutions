@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,30 +50,31 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 struct reg {
-    int id, a, b;
-    bool operator<(reg const& r) const {
-        if (this->b == r.b) return this->id > r.id;
-        return this->b > r.b;
-    }
-    reg nxt() { return {id, a, a + b}; }
+  int id, a, b;
+  bool operator<(reg const &r) const {
+    if (this->b == r.b)
+      return this->id > r.id;
+    return this->b > r.b;
+  }
+  reg nxt() { return {id, a, a + b}; }
 };
 
 int main() {
-    string s;
-    priority_queue<reg> pq;
-    while (cin >> s) {
-        if (s == "#") break;
-        int a, b;
-        cin >> a >> b;
-        pq.push({a, b, b});
-    }
-    int k;
-    cin >> k;
-    while (k--) {
-        reg t = pq.top();
-        pq.pop();
-        cout << t.id << nl;
-        pq.push(t.nxt());
-    }
+  string s;
+  priority_queue<reg> pq;
+  while (cin >> s) {
+    if (s == "#")
+      break;
+    int a, b;
+    cin >> a >> b;
+    pq.push({a, b, b});
+  }
+  int k;
+  cin >> k;
+  while (k--) {
+    reg t = pq.top();
+    pq.pop();
+    cout << t.id << nl;
+    pq.push(t.nxt());
+  }
 }
-

@@ -38,12 +38,13 @@ int main() {
   fast();
   cin >> n;
   vector<ll> a(n);
-  for (ll i = 0; i < n; ++i) cin >> a[i];
+  for (ll i = 0; i < n; ++i)
+    cin >> a[i];
   sort(a.begin(), a.end());
   ll ret = 0, j = 0;
   for (int i = 0; i < n; ++i)
-    while (j < n && a[j++] - a[i] <= 5) ret = max(ret, j - i);
+    while (j < n && a[j++] - a[i] <= 5)
+      ret = max(ret, j - i);
   cout << ret;
   return 0;
 }
-

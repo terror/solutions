@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,50 +50,55 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 class UF {
-   private:
-    vi p, r, sz;
-    int find(int i) { return p[i] == i ? i : (p[i] = find(p[i])); }
-    bool same(int i, int j) { return find(i) == find(j); }
+private:
+  vi p, r, sz;
+  int find(int i) { return p[i] == i ? i : (p[i] = find(p[i])); }
+  bool same(int i, int j) { return find(i) == find(j); }
 
-   public:
-    UF(int N) {
-        p.assign(N, 0), r.assign(N, 0), sz.assign(N, 1);
-        for (int i = 0; i < N; ++i) {
-            p[i] = i;
-        }
+public:
+  UF(int N) {
+    p.assign(N, 0), r.assign(N, 0), sz.assign(N, 1);
+    for (int i = 0; i < N; ++i) {
+      p[i] = i;
     }
-    void merge(int i, int j) {
-        if (same(i, j)) return;
-        int x = find(i), y = find(j);
-        if (r[x] > r[y]) swap(x, y);
-        p[x] = y;
-        if (r[x] == r[y]) ++r[y];
-        sz[y] += sz[x];
-    }
-    int szset(int x) { return sz[find(x)]; }
+  }
+  void merge(int i, int j) {
+    if (same(i, j))
+      return;
+    int x = find(i), y = find(j);
+    if (r[x] > r[y])
+      swap(x, y);
+    p[x] = y;
+    if (r[x] == r[y])
+      ++r[y];
+    sz[y] += sz[x];
+  }
+  int szset(int x) { return sz[find(x)]; }
 };
 
 void solve() {
-    cin >> N;
-    UF x = UF(MXN);
-    map<string, int> mp;
-    int cnt = 0;
-    while (N--) {
-        string a, b;
-        cin >> a >> b;
-        if (mp.find(a) == mp.end()) mp[a] = cnt++;
-        if (mp.find(b) == mp.end()) mp[b] = cnt++;
-        x.merge(mp[a], mp[b]);
-        cout << x.szset(mp[a]) << nl;
-    }
+  cin >> N;
+  UF x = UF(MXN);
+  map<string, int> mp;
+  int cnt = 0;
+  while (N--) {
+    string a, b;
+    cin >> a >> b;
+    if (mp.find(a) == mp.end())
+      mp[a] = cnt++;
+    if (mp.find(b) == mp.end())
+      mp[b] = cnt++;
+    x.merge(mp[a], mp[b]);
+    cout << x.szset(mp[a]) << nl;
+  }
 }
 
 int main() {
-    fast();
-    int T;
-    cin >> T;
-    while (T--) {
-        solve();
-    }
-    return 0;
+  fast();
+  int T;
+  cin >> T;
+  while (T--) {
+    solve();
+  }
+  return 0;
 }

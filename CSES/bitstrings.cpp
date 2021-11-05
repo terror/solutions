@@ -5,16 +5,14 @@ using namespace std;
 typedef long long ll;
 ll n;
 
-ll p(ll b, ll p, ll md)
-{
-    ll ans = 1;
-    for (ll i = 0; i < p; ++i)
-        ans = ans * b % md;
-    return ans;
+ll p(ll b, ll p, ll md) {
+  ll ans = 1;
+  for (ll i = 0; i < p; ++i)
+    ans = ans * b % md;
+  return ans;
 }
 
-int main()
-{
-    cin >> n, cout << p(2, n, MOD) << endl;
-    return 0;
+int main() {
+  cin >> n, cout << p(2, n, MOD) << endl;
+  return 0;
 }

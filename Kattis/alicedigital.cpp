@@ -8,7 +8,8 @@ int main() {
   while (t--) {
     cin >> n >> m;
     int a[n], ans = 0;
-    for (int i = 0; i < n; ++i) cin >> a[i];
+    for (int i = 0; i < n; ++i)
+      cin >> a[i];
     for (int i = 0; i < n; ++i) {
       if (a[i] == m) {
         int msf = m;

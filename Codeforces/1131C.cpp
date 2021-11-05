@@ -42,12 +42,13 @@ int main() {
   sort(a, a + n);
   vector<ll> ans(n);
   int j = 0, k = n - 1;
-  for (int i = 0; i < n; i += 2) ans[j++] = a[i], ans[k--] = a[i + 1];
+  for (int i = 0; i < n; i += 2)
+    ans[j++] = a[i], ans[k--] = a[i + 1];
   if (n % 2 != 0) {
     ans[n / 2] = a[n - 1];
   }
-  for (auto x : ans) cout << x << " ";
+  for (auto x : ans)
+    cout << x << " ";
 
   return 0;
 }
-

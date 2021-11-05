@@ -1,14 +1,14 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
-void backwards(std::vector<int>& vec);
-vector<int> everyOther(const std::vector<int>& vec);
-int smallest(const std::vector<int>& vec);
-int sum(const std::vector<int>& vec);
-int veryOdd(const std::vector<int>& vec);
+void backwards(std::vector<int> &vec);
+vector<int> everyOther(const std::vector<int> &vec);
+int smallest(const std::vector<int> &vec);
+int sum(const std::vector<int> &vec);
+int veryOdd(const std::vector<int> &vec);
 
 int main() {
   vector<int> test = {1, 2, 5, 3, 2, 5};
@@ -36,7 +36,7 @@ int main() {
 
   test = {1, 2, 5, 3, 2, 5};
   ans = sum(test);
-  if (ans != 1+2+5+3+2+5) {
+  if (ans != 1 + 2 + 5 + 3 + 2 + 5) {
     std::cerr << "sum() was incorrect" << std::endl;
     exit(1);
   }

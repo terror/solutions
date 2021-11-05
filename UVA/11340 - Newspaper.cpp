@@ -23,7 +23,8 @@ int main() {
       string s;
       getline(cin, s);
       for (int i = 0; i < s.length(); ++i) {
-        if (mp.find(s[i]) != mp.end()) tot += mp[s[i]];
+        if (mp.find(s[i]) != mp.end())
+          tot += mp[s[i]];
       }
     }
     printf("%0.2lf$\n", tot / 100);

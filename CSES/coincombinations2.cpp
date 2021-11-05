@@ -11,7 +11,8 @@ int main() {
   ll n, m, a[MXN];
   cin >> n >> m;
 
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
 
   vvi dp(n + 1, vi(m + 1));
   dp[0][0] = 1;
@@ -19,7 +20,8 @@ int main() {
   for (int i = 1; i <= n; ++i) {
     for (int j = 0; j <= m; ++j) {
       dp[i][j] = dp[i - 1][j];
-      if (j - a[i - 1] >= 0) (dp[i][j] += dp[i][j - a[i - 1]]) %= MOD;
+      if (j - a[i - 1] >= 0)
+        (dp[i][j] += dp[i][j - a[i - 1]]) %= MOD;
     }
   }
   for (int i = 0; i < n; ++i) {

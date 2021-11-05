@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,29 +50,32 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    cin >> n >> m;
-    string s;
-    cin >> s;
-    if (m == n) {
-        cout << s;
-        return 0;
-    }
-    bool u[MXN];
-    stack<ll> st;
-    int cnt = 0;
-    for (int i = 0; i < n; ++i) {
-        if (s[i] == '(') st.push(i);
-        if (s[i] == ')') {
-            u[st.top()] = 1;
-            u[i] = 1;
-            st.pop();
-            cnt += 2;
-            if (cnt == m) break;
-        }
-    }
-    for (int i = 0; i < n; ++i) {
-        if (u[i]) cout << s[i];
-    }
+  fast();
+  cin >> n >> m;
+  string s;
+  cin >> s;
+  if (m == n) {
+    cout << s;
     return 0;
+  }
+  bool u[MXN];
+  stack<ll> st;
+  int cnt = 0;
+  for (int i = 0; i < n; ++i) {
+    if (s[i] == '(')
+      st.push(i);
+    if (s[i] == ')') {
+      u[st.top()] = 1;
+      u[i] = 1;
+      st.pop();
+      cnt += 2;
+      if (cnt == m)
+        break;
+    }
+  }
+  for (int i = 0; i < n; ++i) {
+    if (u[i])
+      cout << s[i];
+  }
+  return 0;
 }

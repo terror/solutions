@@ -37,7 +37,7 @@ int main() {
   fast();
   cin >> n;
   int a = 0, g = 0;
-  vector<pair<int, int> > v;
+  vector<pair<int, int>> v;
   for (int i = 0; i < n; ++i) {
     int x, y;
     cin >> x >> y;

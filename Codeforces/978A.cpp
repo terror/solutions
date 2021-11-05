@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -51,29 +51,28 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    cin >> n;
-    map<int, int> mp;
-    for (int i = 0; i < n; ++i) {
-        int x;
-        cin >> x;
-        a[i] = x;
-        mp[x] = 0;
-    }
+  fast();
+  cin >> n;
+  map<int, int> mp;
+  for (int i = 0; i < n; ++i) {
+    int x;
+    cin >> x;
+    a[i] = x;
+    mp[x] = 0;
+  }
 
-    vector<int> ans;
-    for (int i = n - 1; ~i; --i) {
-        if (!mp[a[i]]) {
-            mp[a[i]] = 1;
-            ans.pb(a[i]);
-        }
+  vector<int> ans;
+  for (int i = n - 1; ~i; --i) {
+    if (!mp[a[i]]) {
+      mp[a[i]] = 1;
+      ans.pb(a[i]);
     }
-    reverse(ans.begin(), ans.end());
-    cout << ans.size() << "\n";
-    for (auto u : ans) {
-        cout << u << " ";
-    }
+  }
+  reverse(ans.begin(), ans.end());
+  cout << ans.size() << "\n";
+  for (auto u : ans) {
+    cout << u << " ";
+  }
 
-    return 0;
+  return 0;
 }
-

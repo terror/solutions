@@ -37,10 +37,12 @@ int main() {
   fast();
   cin >> n;
   map<int, int> mp;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
 
   for (int i = 0; i < n; ++i)
-    for (int j = i + 1; j < n; ++j) ++mp[a[i] + a[j]];
+    for (int j = i + 1; j < n; ++j)
+      ++mp[a[i] + a[j]];
 
   int mx = 0;
   for (auto x : mp) {
@@ -50,4 +52,3 @@ int main() {
 
   return 0;
 }
-

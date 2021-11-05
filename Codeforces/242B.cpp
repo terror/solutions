@@ -36,7 +36,7 @@ void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 int main() {
   fast();
   cin >> n;
-  vector<pair<ll, ll> > v;
+  vector<pair<ll, ll>> v;
   ll mn = 1e9, mx = 0;
   for (int i = 0; i < n; ++i) {
     ll a, b;
@@ -56,4 +56,3 @@ int main() {
   cout << -1;
   return 0;
 }
-

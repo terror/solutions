@@ -47,8 +47,8 @@ int main() {
     else
       v.pb(i + 1);
   }
-  for (auto x : v) cout << x << " ";
+  for (auto x : v)
+    cout << x << " ";
 
   return 0;
 }
-

@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,35 +50,35 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    while (cin >> n >> m) {
-        if (n == 0 and m == 0) {
-            break;
-        }
-        queue<pi> q;
-        set<pi> seen;
-        q.push(mp(n, m));
-        int ans = 0;
-        while (!q.empty()) {
-            auto x = q.front();
-            q.pop();
-            if (x.s == 0 and x.f == 0) {
-                cout << ans << nl;
-                break;
-            }
-            if (seen.find(x) != seen.end()) {
-                cout << -1 << nl;
-                break;
-            }
-            seen.ins({x.f, x.s});
-            ++ans;
-            // nxt moves
-            if (x.f > 1)
-                q.push({x.f - 2, x.s});
-            else if (x.s > 1)
-                q.push({x.f + 1, x.s - 2});
-            else
-                q.push({x.f, x.s + 1});
-        }
+  fast();
+  while (cin >> n >> m) {
+    if (n == 0 and m == 0) {
+      break;
     }
+    queue<pi> q;
+    set<pi> seen;
+    q.push(mp(n, m));
+    int ans = 0;
+    while (!q.empty()) {
+      auto x = q.front();
+      q.pop();
+      if (x.s == 0 and x.f == 0) {
+        cout << ans << nl;
+        break;
+      }
+      if (seen.find(x) != seen.end()) {
+        cout << -1 << nl;
+        break;
+      }
+      seen.ins({x.f, x.s});
+      ++ans;
+      // nxt moves
+      if (x.f > 1)
+        q.push({x.f - 2, x.s});
+      else if (x.s > 1)
+        q.push({x.f + 1, x.s - 2});
+      else
+        q.push({x.f, x.s + 1});
+    }
+  }
 }

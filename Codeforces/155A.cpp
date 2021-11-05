@@ -45,8 +45,10 @@ int main() {
   for (int i = 1; i < n; ++i) {
     mn = min(a[i - 1], mn);
     mx = max(a[i - 1], mx);
-    if (a[i] < mn) ++ans;
-    if (a[i] > mx) ++ans;
+    if (a[i] < mn)
+      ++ans;
+    if (a[i] > mx)
+      ++ans;
   }
   cout << ans;
   return 0;

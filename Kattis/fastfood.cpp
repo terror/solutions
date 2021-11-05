@@ -22,13 +22,15 @@ int main() {
       cin >> money[i];
     }
 
-    for (auto &x : stickers) cin >> x;
+    for (auto &x : stickers)
+      cin >> x;
 
     ll ans = 0;
     for (ll i = 0; i < a; ++i) {
       ll mn = 100;
       // ans = min sticker * prize $
-      for (auto x : amounts[i]) mn = min(mn, stickers[x - 1]);
+      for (auto x : amounts[i])
+        mn = min(mn, stickers[x - 1]);
       ans += mn * money[i];
     }
     cout << ans << "\n";

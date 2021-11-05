@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -51,42 +51,42 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    int l, r;
-    cin >> n >> l >> r;
-    vector<int> arr = {1};
-    int x = 1;
+  int l, r;
+  cin >> n >> l >> r;
+  vector<int> arr = {1};
+  int x = 1;
 
-    // get min
+  // get min
 
-    int c = 1 * (n - (l - 1));
-    int v = l - 1;
-    int lol = 1;
-    while (v--) {
-        c += pow(2, lol);
-        lol++;
-    }
+  int c = 1 * (n - (l - 1));
+  int v = l - 1;
+  int lol = 1;
+  while (v--) {
+    c += pow(2, lol);
+    lol++;
+  }
 
-    if (l == 1) c = n;
-    cout << c << " ";
+  if (l == 1)
+    c = n;
+  cout << c << " ";
 
-    // get max
-    for (int i = 1; i <= r; ++i) {
-        arr.pb(pow(2, i));
-    }
+  // get max
+  for (int i = 1; i <= r; ++i) {
+    arr.pb(pow(2, i));
+  }
 
-    vector<int> arr2;
-    int ss = 0;
-    for (int i = 0; i < min(r, n); ++i) {
-        arr2.pb(arr[i]);
-        ss += arr[i];
-    }
+  vector<int> arr2;
+  int ss = 0;
+  for (int i = 0; i < min(r, n); ++i) {
+    arr2.pb(arr[i]);
+    ss += arr[i];
+  }
 
-    int mx = arr2[arr2.size() - 1];
-    if (n > r) {
-        cout << ss + ((n - arr2.size()) * mx);
-        return 0;
-    }
-    cout << ss;
+  int mx = arr2[arr2.size() - 1];
+  if (n > r) {
+    cout << ss + ((n - arr2.size()) * mx);
     return 0;
+  }
+  cout << ss;
+  return 0;
 }
-

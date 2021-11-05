@@ -33,9 +33,11 @@ void verify(int curr) {
     f = false;
     return;
   }
-  if (p[curr]) return;
+  if (p[curr])
+    return;
   t[curr] = true;
-  for (int i = 0; i < adj[curr].size(); ++i) verify(adj[curr][i]);
+  for (int i = 0; i < adj[curr].size(); ++i)
+    verify(adj[curr][i]);
   t[curr] = false, p[curr] = true;
 }
 
@@ -48,7 +50,8 @@ int main() {
   }
 
   for (int i = 1; i <= n; ++i) {
-    if (!f) break;
+    if (!f)
+      break;
     verify(i);
   }
 
@@ -56,4 +59,3 @@ int main() {
 
   return 0;
 }
-

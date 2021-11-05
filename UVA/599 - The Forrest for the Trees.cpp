@@ -36,51 +36,53 @@ vi v;
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 void dfs(int v, vi adj[], bool vis[]) {
-    vis[v] = 1;
-    for (auto u : adj[v]) {
-        if (!vis[u]) {
-            vis[u] = 1;
-            dfs(u, adj, vis);
-        }
+  vis[v] = 1;
+  for (auto u : adj[v]) {
+    if (!vis[u]) {
+      vis[u] = 1;
+      dfs(u, adj, vis);
     }
+  }
 }
 
 int cc(int v, vi ed, vi adj[], bool vis[]) {
-    int ans = 0;
-    for (int i = 0; i < ed.size(); ++i) vis[i] = 0;
-    for (int i = 0; i < ed.size(); ++i) {
-        if (!vis[ed[i]]) {
-            ++ans;
-            dfs(ed[i], adj, vis);
-        }
+  int ans = 0;
+  for (int i = 0; i < ed.size(); ++i)
+    vis[i] = 0;
+  for (int i = 0; i < ed.size(); ++i) {
+    if (!vis[ed[i]]) {
+      ++ans;
+      dfs(ed[i], adj, vis);
     }
-    return ans;
+  }
+  return ans;
 }
 
 // tle :(
 int main() {
-    int T;
-    cin >> T;
-    while (T--) {
-        string s;
-        vi adj[MXN], ed;
-        bool vis[MXN];
-        while (cin >> s and s.find("*") == string::npos) {
-            int u = s[1], v = s[3];
-            adj[u].pb(v);
-            adj[v].pb(u);
-            ed.pb(v);
-            ed.pb(u);
-        }
-        cin >> s;
-        int ac = 0;
-        for (int i = 0; i < s.size(); i += 2)
-            if (find(ed.begin(), ed.end(), s[i]) == ed.end()) ++ac;
-        int ans = 0;
-        if (ed.size() != 0) ans = cc(ed[0], ed, adj, vis);
-        cout << "There are " << ans << " tree(s) and " << ac << " acorn(s)."
-             << "\n";
-        fill(vis, vis + MXN, 0);
+  int T;
+  cin >> T;
+  while (T--) {
+    string s;
+    vi adj[MXN], ed;
+    bool vis[MXN];
+    while (cin >> s and s.find("*") == string::npos) {
+      int u = s[1], v = s[3];
+      adj[u].pb(v);
+      adj[v].pb(u);
+      ed.pb(v);
+      ed.pb(u);
     }
+    cin >> s;
+    int ac = 0;
+    for (int i = 0; i < s.size(); i += 2)
+      if (find(ed.begin(), ed.end(), s[i]) == ed.end())
+        ++ac;
+    int ans = 0;
+    if (ed.size() != 0)
+      ans = cc(ed[0], ed, adj, vis);
+    cout << "There are " << ans << " tree(s) and " << ac << " acorn(s)."
+         << "\n";
+    fill(vis, vis + MXN, 0);
+  }
 }
-

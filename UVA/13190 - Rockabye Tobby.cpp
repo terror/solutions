@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,34 +50,34 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 struct X {
-    string id;
-    int a, b, pri;
-    bool operator<(X const& v) const {
-        if (this->b == v.b) return this->pri > v.pri;
-        return this->b > v.b;
-    }
-    X nxt() { return {id, a, a + b, pri}; }
+  string id;
+  int a, b, pri;
+  bool operator<(X const &v) const {
+    if (this->b == v.b)
+      return this->pri > v.pri;
+    return this->b > v.b;
+  }
+  X nxt() { return {id, a, a + b, pri}; }
 };
 
 int main() {
-    int T;
-    cin >> T;
-    while (T--) {
-        priority_queue<X> pq;
-        int n, k;
-        cin >> n >> k;
-        F0R(n) {
-            string id;
-            int t;
-            cin >> id >> t;
-            pq.push({id, t, t, i});
-        }
-        while (k--) {
-            X o = pq.top();
-            pq.pop();
-            cout << o.b << " " << o.id << nl;
-            pq.push(o.nxt());
-        }
+  int T;
+  cin >> T;
+  while (T--) {
+    priority_queue<X> pq;
+    int n, k;
+    cin >> n >> k;
+    F0R(n) {
+      string id;
+      int t;
+      cin >> id >> t;
+      pq.push({id, t, t, i});
     }
+    while (k--) {
+      X o = pq.top();
+      pq.pop();
+      cout << o.b << " " << o.id << nl;
+      pq.push(o.nxt());
+    }
+  }
 }
-

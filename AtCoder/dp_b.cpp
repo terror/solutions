@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -59,9 +59,9 @@ int main() {
   dp[0] = 0;
   FOR(i, 0, n) {
     FOR(j, 1, k + 1)
-    if (i - j >= 0) dp[i] = min(dp[i], dp[i - j] + abs(a[i] - a[i - j]));
+    if (i - j >= 0)
+      dp[i] = min(dp[i], dp[i - j] + abs(a[i] - a[i - j]));
   }
   cout << dp[n - 1];
   return 0;
 }
-

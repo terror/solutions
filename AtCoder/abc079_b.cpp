@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -53,9 +53,12 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 ll dp[MXN];
 
 ll solve(ll n) {
-  if (n == 0) return 2;
-  if (n == 1) return 1;
-  if (!dp[n]) dp[n] = solve(n - 1) + solve(n - 2);
+  if (n == 0)
+    return 2;
+  if (n == 1)
+    return 1;
+  if (!dp[n])
+    dp[n] = solve(n - 1) + solve(n - 2);
   return dp[n];
 }
 
@@ -67,4 +70,3 @@ int main() {
 
   return 0;
 }
-

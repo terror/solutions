@@ -40,7 +40,8 @@ int dc[] = {0, 1, 0, -1};
 
 int floodfill(int r, int c, char c1, char c2) {
   // if (r < 0 or r >= 4 or c < 0 or c >= 4) return 0;
-  if (adj[r][c] != c1) return 0;
+  if (adj[r][c] != c1)
+    return 0;
   adj[r][c] = c2;
   int ans = 1;
 
@@ -71,4 +72,3 @@ int main() {
 
   return 0;
 }
-

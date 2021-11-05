@@ -54,9 +54,9 @@ int main() {
         ans += v[i].F, ++c;
       }
     }
-    if (full) break;
+    if (full)
+      break;
   }
   cout << ans;
   return 0;
 }
-

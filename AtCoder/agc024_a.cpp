@@ -30,12 +30,12 @@ int n, m, t, a[mxN];
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 int main() {
-    fast();
-    ll a, b, c, k;
-    cin >> a >> b >> c >> k;
-    if (k % 2 == 0) {
-        cout << a - b;
-        return 0;
-    }
-    cout << b - a;
+  fast();
+  ll a, b, c, k;
+  cin >> a >> b >> c >> k;
+  if (k % 2 == 0) {
+    cout << a - b;
+    return 0;
+  }
+  cout << b - a;
 }

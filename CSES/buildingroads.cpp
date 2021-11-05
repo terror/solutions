@@ -18,7 +18,8 @@ vector<bool> vis(mxN);
 void dfs(int v) {
   vis[v] = true;
   for (auto u : adj[v])
-    if (!vis[u]) dfs(u);
+    if (!vis[u])
+      dfs(u);
 }
 
 vi cc() {
@@ -43,6 +44,7 @@ int main() {
   dfs(0);
   cc();
   cout << ans.size() << "\n";
-  for (auto x : ans) cout << x << " " << ++x << "\n";
+  for (auto x : ans)
+    cout << x << " " << ++x << "\n";
   return 0;
 }

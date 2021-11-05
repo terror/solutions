@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,24 +50,23 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    cin >> n;
-    map<ll, ll> mp;
-    while (n--) {
-        ll x;
-        cin >> x;
-        if (mp.find(x) == mp.end() or (mp[x] == 0)) {
-            mp[x] = 1;
-        } else {
-            mp[x] = 0;
-        }
+  fast();
+  cin >> n;
+  map<ll, ll> mp;
+  while (n--) {
+    ll x;
+    cin >> x;
+    if (mp.find(x) == mp.end() or (mp[x] == 0)) {
+      mp[x] = 1;
+    } else {
+      mp[x] = 0;
     }
-    ll ans = 0;
-    for (auto u : mp) {
-        ans += u.s;
-    }
-    cout << ans;
+  }
+  ll ans = 0;
+  for (auto u : mp) {
+    ans += u.s;
+  }
+  cout << ans;
 
-    return 0;
+  return 0;
 }
-

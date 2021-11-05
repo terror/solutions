@@ -9,24 +9,21 @@ typedef pair<int, bool> PIB;
 typedef vector<PIB> VPIB;
 int a, b, n, c = 0, mx = 0;
 
-int main()
-{
-    cin >> n;
-    VPIB v;
+int main() {
+  cin >> n;
+  VPIB v;
 
-    while (n--)
-    {
-        cin >> a >> b;
-        v.PB(MP(a, true)), v.PB(MP(b, false));
-    }
+  while (n--) {
+    cin >> a >> b;
+    v.PB(MP(a, true)), v.PB(MP(b, false));
+  }
 
-    sort(v.begin(), v.end());
+  sort(v.begin(), v.end());
 
-    for (int i = 0; i < v.size(); ++i)
-    {
-        c += v[i].second ? 1 : -1;
-        mx = max(mx, c);
-    }
+  for (int i = 0; i < v.size(); ++i) {
+    c += v[i].second ? 1 : -1;
+    mx = max(mx, c);
+  }
 
-    cout << mx;
+  cout << mx;
 }

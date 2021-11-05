@@ -4,8 +4,7 @@ using namespace std;
 const int mxN = 2e5;
 int n, d = 1, mx = 0, a[mxN];
 
-int main()
-{
+int main() {
   cin >> n;
   for (int i = 0; i < n; ++i)
     cin >> a[i];

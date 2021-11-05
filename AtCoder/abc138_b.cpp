@@ -36,7 +36,7 @@ void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 int main() {
   fast();
   cin >> n;
-  priority_queue<double, vector<double>, greater<double> > pq;
+  priority_queue<double, vector<double>, greater<double>> pq;
   for (int i = 0; i < n; ++i) {
     int x;
     cin >> x;
@@ -54,4 +54,3 @@ int main() {
 
   return 0;
 }
-

@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -52,38 +52,41 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 char a[MXN][MXN];
 
 int main() {
-    fast();
-    cin >> n >> m;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cin >> a[i][j];
-        }
+  fast();
+  cin >> n >> m;
+  for (int i = 0; i < n; ++i) {
+    for (int j = 0; j < m; ++j) {
+      cin >> a[i][j];
     }
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            if (a[i][j] == '#') {
-                bool p = 0;
-                // check all neighbouring cells
-                if (i + 1 < n) {
-                    if (a[i + 1][j] == '#') p = 1;
-                }
-                if (i - 1 >= 0) {
-                    if (a[i - 1][j] == '#') p = 1;
-                }
-                if (j + 1 < m) {
-                    if (a[i][j + 1] == '#') p = 1;
-                }
-                if (j - 1 >= 0) {
-                    if (a[i][j - 1] == '#') p = 1;
-                }
-                if (!p) {
-                    cout << "No";
-                    return 0;
-                }
-            }
+  }
+  for (int i = 0; i < n; ++i) {
+    for (int j = 0; j < m; ++j) {
+      if (a[i][j] == '#') {
+        bool p = 0;
+        // check all neighbouring cells
+        if (i + 1 < n) {
+          if (a[i + 1][j] == '#')
+            p = 1;
         }
+        if (i - 1 >= 0) {
+          if (a[i - 1][j] == '#')
+            p = 1;
+        }
+        if (j + 1 < m) {
+          if (a[i][j + 1] == '#')
+            p = 1;
+        }
+        if (j - 1 >= 0) {
+          if (a[i][j - 1] == '#')
+            p = 1;
+        }
+        if (!p) {
+          cout << "No";
+          return 0;
+        }
+      }
     }
-    cout << "Yes";
-    return 0;
+  }
+  cout << "Yes";
+  return 0;
 }
-

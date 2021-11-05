@@ -29,7 +29,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (in i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -49,61 +49,64 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 class UF {
-   private:
-    int p[MXN], sz[MXN], sum[MXN];
-    bool same(int i, int j) { return find(i) == find(j); }
-    int find(int i) {
-        if (p[i] == i) return i;
-        return p[i] = find(p[i]);  // path compression
-    }
+private:
+  int p[MXN], sz[MXN], sum[MXN];
+  bool same(int i, int j) { return find(i) == find(j); }
+  int find(int i) {
+    if (p[i] == i)
+      return i;
+    return p[i] = find(p[i]); // path compression
+  }
 
-   public:
-    UF(int N) {
-        for (int i = 1; i <= N; ++i) {
-            p[i] = i + N, p[i + N] = i + N, sum[i + N] = i, sz[i + N] = 1;
-        }
+public:
+  UF(int N) {
+    for (int i = 1; i <= N; ++i) {
+      p[i] = i + N, p[i + N] = i + N, sum[i + N] = i, sz[i + N] = 1;
     }
+  }
 
-    void unionSet(int i, int j) {
-        if (same(i, j)) return;
-        int x = find(i), y = find(j);
-        sz[y] += sz[x], sum[y] += sum[x];
-        p[x] = y;
-    }
+  void unionSet(int i, int j) {
+    if (same(i, j))
+      return;
+    int x = find(i), y = find(j);
+    sz[y] += sz[x], sum[y] += sum[x];
+    p[x] = y;
+  }
 
-    void mv(int i, int j) {
-        if (same(i, j)) return;
-        int x = find(i), y = find(j);
-        --sz[x], ++sz[y], sum[x] -= i, sum[y] += i;
-        p[i] = y;
-    }
+  void mv(int i, int j) {
+    if (same(i, j))
+      return;
+    int x = find(i), y = find(j);
+    --sz[x], ++sz[y], sum[x] -= i, sum[y] += i;
+    p[i] = y;
+  }
 
-    void ret(int i) {
-        int x = find(i);
-        cout << sz[x] << " " << sum[x] << nl;
-    }
+  void ret(int i) {
+    int x = find(i);
+    cout << sz[x] << " " << sum[x] << nl;
+  }
 };
 
 int main() {
-    int n, m;
-    while (scanf("%d%d", &n, &m) != EOF) {
-        UF x = UF(n);
-        F0R(m) {
-            int o, a, b;
-            cin >> o;
-            if (o == 1) {
-                cin >> a >> b;
-                x.unionSet(a, b);
-            }
-            if (o == 2) {
-                cin >> a >> b;
-                x.mv(a, b);
-            }
-            if (o == 3) {
-                cin >> a;
-                x.ret(a);
-            }
-        }
+  int n, m;
+  while (scanf("%d%d", &n, &m) != EOF) {
+    UF x = UF(n);
+    F0R(m) {
+      int o, a, b;
+      cin >> o;
+      if (o == 1) {
+        cin >> a >> b;
+        x.unionSet(a, b);
+      }
+      if (o == 2) {
+        cin >> a >> b;
+        x.mv(a, b);
+      }
+      if (o == 3) {
+        cin >> a;
+        x.ret(a);
+      }
     }
-    return 0;
+  }
+  return 0;
 }

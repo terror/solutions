@@ -60,4 +60,3 @@ int main() {
   cout << s.size();
   return 0;
 }
-

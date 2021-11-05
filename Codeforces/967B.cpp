@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -47,35 +47,36 @@ int a[MXN], n;
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 int main() {
-    fast();
-    int A, B, s = 0;
-    cin >> n >> A >> B;
-    for (int i = 0; i < n; ++i) {
-        int x;
-        cin >> x;
-        s += x;
-        a[i] = x;
-    }
+  fast();
+  int A, B, s = 0;
+  cin >> n >> A >> B;
+  for (int i = 0; i < n; ++i) {
+    int x;
+    cin >> x;
+    s += x;
+    a[i] = x;
+  }
 
-    double v = (A * a[0]) / s;
-    if (v >= B) {
-        cout << 0;
-        return 0;
-    }
-    // new arr
-    vector<int> lol;
-    for (int i = 1; i < n; ++i) lol.pb(a[i]);
-    sort(lol.rbegin(), lol.rend());
-
-    int ans = 0, st = a[0], idx = 0;
-    while (1) {
-        s -= lol[idx], ++ans;
-        v = (A * st) / s;
-        if (v >= B) break;
-        ++idx;
-    }
-
-    cout << ans;
+  double v = (A * a[0]) / s;
+  if (v >= B) {
+    cout << 0;
     return 0;
-}
+  }
+  // new arr
+  vector<int> lol;
+  for (int i = 1; i < n; ++i)
+    lol.pb(a[i]);
+  sort(lol.rbegin(), lol.rend());
 
+  int ans = 0, st = a[0], idx = 0;
+  while (1) {
+    s -= lol[idx], ++ans;
+    v = (A * st) / s;
+    if (v >= B)
+      break;
+    ++idx;
+  }
+
+  cout << ans;
+  return 0;
+}

@@ -44,7 +44,8 @@ int main() {
   for (int i = 0; i < t.length(); ++i) {
     ok = true;
     for (int j = 0; j < s.length(); ++j) {
-      if (t[i] == s[j]) ok = false;
+      if (t[i] == s[j])
+        ok = false;
     }
     if (ok) {
       ans = t[i];
@@ -59,4 +60,3 @@ int main() {
 
   return 0;
 }
-

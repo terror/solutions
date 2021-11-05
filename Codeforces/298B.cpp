@@ -45,20 +45,23 @@ int main() {
       return 0;
     }
     if (s[i] == 'S') {
-      if (abs((b - 1) - d) < abs(b - d)) --b;
+      if (abs((b - 1) - d) < abs(b - d))
+        --b;
     }
     if (s[i] == 'N') {
-      if (abs((b + 1) - d) < abs(b - d)) ++b;
+      if (abs((b + 1) - d) < abs(b - d))
+        ++b;
     }
     if (s[i] == 'E') {
-      if (abs((a + 1) - c) < abs(a - c)) ++a;
+      if (abs((a + 1) - c) < abs(a - c))
+        ++a;
     }
     if (s[i] == 'S') {
-      if (abs((a - 1) - c) < abs(a - c)) --a;
+      if (abs((a - 1) - c) < abs(a - c))
+        --a;
     }
   }
 
   cout << -1;
   return 0;
 }
-

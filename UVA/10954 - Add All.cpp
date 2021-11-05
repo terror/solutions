@@ -5,7 +5,7 @@ int n;
 
 int main() {
   while (cin >> n && n != 0) {
-    priority_queue<int, vector<int>, greater<int> > pq;
+    priority_queue<int, vector<int>, greater<int>> pq;
     for (int i = 0; i < n; ++i) {
       int x;
       cin >> x;

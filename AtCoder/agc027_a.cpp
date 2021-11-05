@@ -47,7 +47,8 @@ int main() {
     sort(a, a + n);
     ll ans = 0;
     for (int i = 0; i < n; ++i)
-      if (a[i] <= m) ++ans, m -= a[i];
+      if (a[i] <= m)
+        ++ans, m -= a[i];
 
     if (ans != n)
       cout << ans;

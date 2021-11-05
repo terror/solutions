@@ -9,19 +9,21 @@ typedef vector<ll> vll;
 typedef vector<int> vi;
 
 class FenwickTree {
- private:
+private:
   vll ft;
 
- public:
+public:
   FenwickTree(int m) { ft.assign(m + 1, 0); }
 
   void update(ll i, ll v) {
-    for (i++; i < ft.size(); i += op(i)) ft[i] += v;
+    for (i++; i < ft.size(); i += op(i))
+      ft[i] += v;
   }
 
   ll rsq(ll i) {
     ll s = 0;
-    for (; i > 0; i -= op(i)) s += ft[i];
+    for (; i > 0; i -= op(i))
+      s += ft[i];
     return s;
   }
 };

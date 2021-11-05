@@ -37,7 +37,8 @@ int main() {
   fast();
   cin >> n >> m;
   bool ok = true;
-  if (n % m == 0) cout << 0, ok = false;
+  if (n % m == 0)
+    cout << 0, ok = false;
   if (ok) {
     if (abs(n - m) > n)
       cout << n;
@@ -48,4 +49,3 @@ int main() {
 
   return 0;
 }
-

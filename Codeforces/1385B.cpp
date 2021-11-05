@@ -34,24 +34,24 @@ vi v;
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 int main() {
-    fast();
-    cin >> n;
-    for (int i = 0; i < n; ++i) {
-        cin >> m;
-        unordered_set<int> s;
-        vector<int> ans;
-        for (int j = 0; j < m * 2; ++j) {
-            int x;
-            cin >> x;
-            if (s.find(x) == s.end()) {
-                s.insert(x);
-                ans.push_back(x);
-            }
-        }
-        for (auto x : ans) cout << x << " ";
-        cout << "\n";
+  fast();
+  cin >> n;
+  for (int i = 0; i < n; ++i) {
+    cin >> m;
+    unordered_set<int> s;
+    vector<int> ans;
+    for (int j = 0; j < m * 2; ++j) {
+      int x;
+      cin >> x;
+      if (s.find(x) == s.end()) {
+        s.insert(x);
+        ans.push_back(x);
+      }
     }
+    for (auto x : ans)
+      cout << x << " ";
+    cout << "\n";
+  }
 
-    return 0;
+  return 0;
 }
-

@@ -37,7 +37,8 @@ int main() {
   fast();
   ll k;
   cin >> n >> k;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
   sort(a, a + n);
   map<int, int> mp;
   for (int i = 0; i < n; ++i) {
@@ -46,7 +47,8 @@ int main() {
     }
     ll ans = 0;
     for (auto x : mp) {
-      if (x.f % k == 0) ++ans;
+      if (x.f % k == 0)
+        ++ans;
     }
     cout << ans;
     return 0;

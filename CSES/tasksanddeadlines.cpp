@@ -9,22 +9,21 @@ typedef vector<PII> VPII;
 
 int n, a, b;
 
-int main()
-{
-    cin >> n;
-    VPII v;
+int main() {
+  cin >> n;
+  VPII v;
 
-    for (int i = 0; i < n; ++i)
-        cin >> a >> b, v.pb(mp(a, b));
+  for (int i = 0; i < n; ++i)
+    cin >> a >> b, v.pb(mp(a, b));
 
-    sort(v.begin(), v.end());
+  sort(v.begin(), v.end());
 
-    ll sum = 0;
-    ll ans = 0;
-    for (int i = 0; i < n; ++i)
-        sum += v[i].first, ans += v[i].second - sum;
+  ll sum = 0;
+  ll ans = 0;
+  for (int i = 0; i < n; ++i)
+    sum += v[i].first, ans += v[i].second - sum;
 
-    cout << ans;
+  cout << ans;
 
-    return 0;
+  return 0;
 }

@@ -46,4 +46,3 @@ int main() {
   cout << fixed << setprecision(10) << su / n;
   return 0;
 }
-

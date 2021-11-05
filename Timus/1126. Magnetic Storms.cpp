@@ -29,7 +29,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (in i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -51,20 +51,21 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 int m, a[MXN];
 
 int main() {
-    cin >> m;
-    int n;
-    vector<int> v;
-    while (cin >> n) {
-        if (n == -1) break;
-        v.pb(n);
+  cin >> m;
+  int n;
+  vector<int> v;
+  while (cin >> n) {
+    if (n == -1)
+      break;
+    v.pb(n);
+  }
+  for (int i = m, j = 0, k = 0; i <= sz(v); ++i) {
+    int mx = 0;
+    while (j != i) {
+      mx = max(mx, v[j]);
+      ++j;
     }
-    for (int i = m, j = 0, k = 0; i <= sz(v); ++i) {
-        int mx = 0;
-        while (j != i) {
-            mx = max(mx, v[j]);
-            ++j;
-        }
-        cout << mx << nl;
-        j = ++k;
-    }
+    cout << mx << nl;
+    j = ++k;
+  }
 }

@@ -10,8 +10,7 @@ char adj[MXN][MXN];
 int dr[] = {1, 0, -1, 0};
 int dc[] = {0, 1, 0, -1};
 
-int floodfill(int r, int c, char c1, char c2)
-{
+int floodfill(int r, int c, char c1, char c2) {
   if (adj[r][c] != c1)
     return 0;
   adj[r][c] = c2;
@@ -20,8 +19,7 @@ int floodfill(int r, int c, char c1, char c2)
   return 1;
 }
 
-int main()
-{
+int main() {
   cin >> n >> m;
   for (int i = 0; i < n; ++i)
     for (int j = 0; j < m; ++j)

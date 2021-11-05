@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -61,7 +61,7 @@ int main() {
   }
   vector<bool> vis(MXN);
   int ans = 0;
-  for (auto& x : mp) {
+  for (auto &x : mp) {
     if (!vis[x.s] and !vis[x.f] and mp[x.s] == x.f) {
       ++ans;
       vis[x.s] = 1, vis[x.f] = 1;
@@ -71,4 +71,3 @@ int main() {
 
   return 0;
 }
-

@@ -53,20 +53,24 @@ int main() {
     cin >> b;
     for (int i = 0; i < 3; ++i) {
       for (int j = 0; j < 3; ++j) {
-        if (a[i][j] == b) x[i][j] = true;
+        if (a[i][j] == b)
+          x[i][j] = true;
       }
     }
   }
   string ans = "No";
   // Check rows/cols/diags
   for (int i = 0; i < 3; ++i)
-    if (x[i][0] && x[i][1] && x[i][2]) ans = "Yes";
+    if (x[i][0] && x[i][1] && x[i][2])
+      ans = "Yes";
   for (int i = 0; i < 3; ++i)
-    if (x[0][i] && x[1][i] && x[2][i]) ans = "Yes";
-  if (x[0][0] && x[1][1] && x[2][2]) ans = "Yes";
-  if (x[0][2] && x[1][1] && x[2][0]) ans = "Yes";
+    if (x[0][i] && x[1][i] && x[2][i])
+      ans = "Yes";
+  if (x[0][0] && x[1][1] && x[2][2])
+    ans = "Yes";
+  if (x[0][2] && x[1][1] && x[2][0])
+    ans = "Yes";
   cout << ans;
 
   return 0;
 }
-

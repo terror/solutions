@@ -37,10 +37,11 @@ int main() {
   fast();
   int k;
   cin >> k >> n;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
   int ans = max(ans, a[0] + k - a[n - 1]);
-  for (int i = 1; i < n - 1; ++i) ans = max(ans, a[i + 1] - a[i]);
+  for (int i = 1; i < n - 1; ++i)
+    ans = max(ans, a[i + 1] - a[i]);
   cout << k - ans;
   return 0;
 }
-

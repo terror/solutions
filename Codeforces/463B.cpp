@@ -33,14 +33,12 @@ vi v;
 
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
-int main()
-{
+int main() {
   fast();
   cin >> n;
   a[0] = 0;
   int ans = 0, h = 0;
-  for (int i = 1; i <= n; ++i)
-  {
+  for (int i = 1; i <= n; ++i) {
     cin >> a[i];
     h += a[i - 1] - a[i];
     if (h < 0)

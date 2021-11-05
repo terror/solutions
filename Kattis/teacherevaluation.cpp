@@ -14,7 +14,8 @@ int main() {
   }
   int ans = 0;
   bool p = true;
-  if (s / n != m && m == 100) p = false;
+  if (s / n != m && m == 100)
+    p = false;
   if (p) {
     while (s / n < m) {
       s += 100;

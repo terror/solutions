@@ -10,7 +10,8 @@ int main() {
   while (ans < h) {
     ++c;
     ans += a;
-    if (ans >= h) break;
+    if (ans >= h)
+      break;
     ans -= b;
   }
   cout << c;

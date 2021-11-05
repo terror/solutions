@@ -4,18 +4,16 @@ using namespace std;
 
 typedef long long ll;
 
-int main()
-{
+int main() {
 
-    ll n, sum = 0;
-    cin >> n;
+  ll n, sum = 0;
+  cin >> n;
 
-    for (int i = 1; i < n; i++)
-    {
-        int t;
-        cin >> t;
-        sum += t;
-    }
+  for (int i = 1; i < n; i++) {
+    int t;
+    cin >> t;
+    sum += t;
+  }
 
-    cout << n * (n + 1) / 2 - sum << endl;
+  cout << n * (n + 1) / 2 - sum << endl;
 }

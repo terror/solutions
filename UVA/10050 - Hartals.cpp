@@ -10,7 +10,8 @@ int main() {
     int n, p, a[mxN];
     cin >> n >> p;
 
-    for (int i = 0; i < p; ++i) cin >> a[i];
+    for (int i = 0; i < p; ++i)
+      cin >> a[i];
     int day = 1, ans = 0;
     string s[7] = {"su", "mo", "tu", "we", "th", "fr", "sa"};
 

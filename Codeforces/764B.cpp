@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,26 +50,26 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    cin >> n;
-    F0R(n) cin >> a[i];
+  fast();
+  cin >> n;
+  F0R(n) cin >> a[i];
 
-    vector<int> r;
-    for (int i = 0, j = n - 1; i < n / 2; ++i) {
-        // flip
-        if (i % 2 == 0) {
-            cout << a[j] << " ";
-            r.pb(a[i]);
-        } else {
-            r.pb(a[j]);
-            cout << a[i] << " ";
-        }
-        --j;
+  vector<int> r;
+  for (int i = 0, j = n - 1; i < n / 2; ++i) {
+    // flip
+    if (i % 2 == 0) {
+      cout << a[j] << " ";
+      r.pb(a[i]);
+    } else {
+      r.pb(a[j]);
+      cout << a[i] << " ";
     }
-    reverse(r.begin(), r.end());
-    if (n % 2 != 0) cout << a[n / 2] << " ";
-    trav(x, r) cout << x << " ";
+    --j;
+  }
+  reverse(r.begin(), r.end());
+  if (n % 2 != 0)
+    cout << a[n / 2] << " ";
+  trav(x, r) cout << x << " ";
 
-    return 0;
+  return 0;
 }
-

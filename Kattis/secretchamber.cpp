@@ -24,7 +24,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -48,7 +48,7 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 vector<char> adj[MXN];
 
-void dfs(char v, char targ, vector<bool>& vis, set<char>& p) {
+void dfs(char v, char targ, vector<bool> &vis, set<char> &p) {
   vis[v] = 1;
   for (char u : adj[v]) {
     if (!vis[u]) {
@@ -77,17 +77,19 @@ int main() {
     for (int i = 0; i < s1.length(); ++i) {
       vector<bool> vis(MXN);
       set<char> p;
-      if (s1[i] == s2[i]) continue;
+      if (s1[i] == s2[i])
+        continue;
       dfs(s1[i], s2[i], vis, p);
       if (!p.count(s2[i])) {
         cout << "no" << nl;
         ok = 0;
       }
-      if (!ok) break;
+      if (!ok)
+        break;
     }
-    if (ok) cout << "yes" << nl;
+    if (ok)
+      cout << "yes" << nl;
   }
 
   return 0;
 }
-

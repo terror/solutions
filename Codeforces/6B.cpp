@@ -40,7 +40,8 @@ int main() {
   cin >> n >> m >> x;
   char a[n + 1][m + 1];
   for (int i = 0; i < n; ++i)
-    for (int j = 0; j < m; ++j) cin >> a[i][j];
+    for (int j = 0; j < m; ++j)
+      cin >> a[i][j];
 
   set<char> s;
   for (int i = 0; i < n; ++i) {
@@ -51,22 +52,27 @@ int main() {
           s.insert(a[i - 1][j]);
           s.insert(a[i + 1][j]);
         } else {
-          if (i - 1 >= 0) s.insert(a[i - 1][j]);
-          if (i + 1 < n) s.insert(a[i + 1][j]);
+          if (i - 1 >= 0)
+            s.insert(a[i - 1][j]);
+          if (i + 1 < n)
+            s.insert(a[i + 1][j]);
         }
         if (j - 1 >= 0 and j + 1 < m) {
           s.insert(a[i][j - 1]);
           s.insert(a[i][j + 1]);
         } else {
-          if (j - 1 >= 0) s.insert(a[i][j - 1]);
-          if (j + 1 < m) s.insert(a[i][j + 1]);
+          if (j - 1 >= 0)
+            s.insert(a[i][j - 1]);
+          if (j + 1 < m)
+            s.insert(a[i][j + 1]);
         }
       }
     }
   }
   int ans = 0;
   for (auto i : s)
-    if (i != '.' and i != x) ++ans;
+    if (i != '.' and i != x)
+      ++ans;
   cout << ans;
   return 0;
 }

@@ -36,15 +36,19 @@ void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 int main() {
   fast();
   cin >> n;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
   vector<int> v1;
   vector<int> v2;
   vector<int> v3;
 
   for (int i = 0; i < n; ++i) {
-    if (a[i] == 0) v3.pb(a[i]);
-    if (a[i] > 0) v2.pb(a[i]);
-    if (a[i] < 0) v1.pb(a[i]);
+    if (a[i] == 0)
+      v3.pb(a[i]);
+    if (a[i] > 0)
+      v2.pb(a[i]);
+    if (a[i] < 0)
+      v1.pb(a[i]);
   }
 
   if (v1.size() % 2 == 0) {
@@ -59,17 +63,19 @@ int main() {
   }
 
   cout << v1.size() << " ";
-  for (auto x : v1) cout << x << " ";
+  for (auto x : v1)
+    cout << x << " ";
   cout << "\n";
 
   cout << v2.size() << " ";
-  for (auto x : v2) cout << x << " ";
+  for (auto x : v2)
+    cout << x << " ";
   cout << "\n";
 
   cout << v3.size() << " ";
-  for (auto x : v3) cout << x << " ";
+  for (auto x : v3)
+    cout << x << " ";
   cout << "\n";
 
   return 0;
 }
-

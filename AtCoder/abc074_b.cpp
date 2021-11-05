@@ -37,7 +37,8 @@ int main() {
   fast();
   int k;
   cin >> n >> k;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
   sort(a, a + n);
   int ans = 0;
   for (int i = 0; i < n; ++i)
@@ -47,4 +48,3 @@ int main() {
 
   return 0;
 }
-

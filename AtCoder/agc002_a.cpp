@@ -36,11 +36,14 @@ void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 int main() {
   fast();
   cin >> n >> m;
-  if (n < 0 && m > 0) cout << "Zero";
-  if (n < 0 && m < 0 && ((m - n) + 1) % 2 != 0) cout << "Negative";
-  if (n < 0 && m < 0 && ((m - n) + 1) % 2 == 0) cout << "Positive";
-  if (n > 0 && m > 0) cout << "Positive";
+  if (n < 0 && m > 0)
+    cout << "Zero";
+  if (n < 0 && m < 0 && ((m - n) + 1) % 2 != 0)
+    cout << "Negative";
+  if (n < 0 && m < 0 && ((m - n) + 1) % 2 == 0)
+    cout << "Positive";
+  if (n > 0 && m > 0)
+    cout << "Positive";
 
   return 0;
 }
-

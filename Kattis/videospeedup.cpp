@@ -8,7 +8,8 @@ double p;
 int main() {
   cin >> n >> p >> k;
   a[0] = 0;
-  for (int i = 1; i <= n; ++i) cin >> a[i];
+  for (int i = 1; i <= n; ++i)
+    cin >> a[i];
   a[n + 1] = k;
   int curr = a[0];
   double ans = 0, speed = 1;

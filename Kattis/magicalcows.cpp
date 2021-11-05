@@ -23,7 +23,8 @@ int main() {
   for (int i = 0; i < m; ++i) {
     ll ans = 0;
     cin >> x;
-    for (int j = 0; j < dp[x].size(); ++j) ans += dp[x][j];
+    for (int j = 0; j < dp[x].size(); ++j)
+      ans += dp[x][j];
     cout << ans << "\n";
   }
   return 0;

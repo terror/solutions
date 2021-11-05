@@ -16,7 +16,8 @@ int main() {
   fast();
   ll n, m, q, s;
   while (cin >> n >> m >> q >> s) {
-    if (n == 0 && m == 0 && q == 0 && s == 0) break;
+    if (n == 0 && m == 0 && q == 0 && s == 0)
+      break;
 
     vector<pll> adj[10001];
     vector<ll> d;
@@ -29,14 +30,15 @@ int main() {
     }
 
     // dijk
-    priority_queue<pll, vector<pll>, greater<pll> > x;
+    priority_queue<pll, vector<pll>, greater<pll>> x;
     x.push(mp(0, s));
     d[s] = 0;
     while (!x.empty()) {
       ll v = x.top().second;
       ll d_v = x.top().first;
       x.pop();
-      if (d_v != d[v]) continue;
+      if (d_v != d[v])
+        continue;
       for (auto e : adj[v]) {
         if (d[v] + e.s < d[e.f]) {
           d[e.f] = d[v] + e.s;

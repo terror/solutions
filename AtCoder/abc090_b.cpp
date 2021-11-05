@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -53,7 +53,8 @@ ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 bool is_palindrome(int n) {
   string s = to_string(n);
   for (int i = 0, j = s.length() - 1; i < s.length() / 2; ++i) {
-    if (j > s.length() / 2 and s[i] != s[j]) return false;
+    if (j > s.length() / 2 and s[i] != s[j])
+      return false;
     --j;
   }
   return true;
@@ -64,8 +65,8 @@ int main() {
   cin >> n >> m;
   int ans = 0;
   for (int i = n; i <= m; ++i)
-    if (is_palindrome(i)) ++ans;
+    if (is_palindrome(i))
+      ++ans;
   cout << ans;
   return 0;
 }
-

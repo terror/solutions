@@ -37,14 +37,16 @@ int main() {
   fast();
   int x;
   cin >> n >> m >> x;
-  for (int i = 0; i < m; ++i) cin >> a[i];
+  for (int i = 0; i < m; ++i)
+    cin >> a[i];
   int cz = 0, cm = 0;
   for (int i = 0; i < m; ++i) {
-    if (a[i] < x) ++cz;
-    if (a[i] > x) ++cm;
+    if (a[i] < x)
+      ++cz;
+    if (a[i] > x)
+      ++cm;
   }
   cout << min(cz, cm);
 
   return 0;
 }
-

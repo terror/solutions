@@ -39,7 +39,8 @@ int main() {
   cin >> s;
   int x = 0;
   for (int i = 0; i < s.length(); ++i) {
-    if (s[i] == '7' or s[i] == '4') ++x;
+    if (s[i] == '7' or s[i] == '4')
+      ++x;
   }
   string a = to_string(x);
   for (int i = 0; i < a.length(); ++i) {
@@ -51,4 +52,3 @@ int main() {
   cout << "YES";
   return 0;
 }
-

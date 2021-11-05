@@ -41,11 +41,11 @@ int main() {
   for (int i = 0; i < n; ++i) {
     string s;
     cin >> s;
-    if (curr != ' ' and s[1] != curr) ++ans;
+    if (curr != ' ' and s[1] != curr)
+      ++ans;
     curr = s[1];
   }
   cout << ans;
 
   return 0;
 }
-

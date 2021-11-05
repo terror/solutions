@@ -24,7 +24,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -37,42 +37,35 @@ const char nl = '\n';
 #define sz(x) (int)(x).size()
 #define ins insert
 
-template <typename T>
-void ckmin(T& a, const T& b) {
-    a = min(a, b);
-}
-template <typename T>
-void ckmax(T& a, const T& b) {
-    a = max(a, b);
-}
+template <typename T> void ckmin(T &a, const T &b) { a = min(a, b); }
+template <typename T> void ckmax(T &a, const T &b) { a = max(a, b); }
 
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 // }}}
 
 int main() {
-    fast();
-    int n, cas = 1;
-    while (cin >> n) {
-        cout << "Case " << cas++ << ":" << nl;
-        int a[MXN], m;
-        F0R(n) cin >> a[i];
-        sort(a, a + n);
-        cin >> m;
-        while (m--) {
-            ll q;
-            cin >> q;
-            ll ans = INF, ans1 = 0;
-            for (int i = 0; i < n; ++i) {
-                for (int j = i + 1; j < n; ++j) {
-                    if (abs(q - (a[i] + a[j])) < ans) {
-                        ans = abs(q - (a[i] + a[j]));
-                        ans1 = a[i] + a[j];
-                    }
-                }
-            }
-            cout << "Closest sum to " << q << " is " << ans1 << "." << nl;
+  fast();
+  int n, cas = 1;
+  while (cin >> n) {
+    cout << "Case " << cas++ << ":" << nl;
+    int a[MXN], m;
+    F0R(n) cin >> a[i];
+    sort(a, a + n);
+    cin >> m;
+    while (m--) {
+      ll q;
+      cin >> q;
+      ll ans = INF, ans1 = 0;
+      for (int i = 0; i < n; ++i) {
+        for (int j = i + 1; j < n; ++j) {
+          if (abs(q - (a[i] + a[j])) < ans) {
+            ans = abs(q - (a[i] + a[j]));
+            ans1 = a[i] + a[j];
+          }
         }
+      }
+      cout << "Closest sum to " << q << " is " << ans1 << "." << nl;
     }
-    return 0;
+  }
+  return 0;
 }
-

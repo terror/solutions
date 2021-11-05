@@ -42,20 +42,24 @@ int main() {
     a[i] = x;
     c[i] = x;
   }
-  for (int i = 0; i < n; ++i) cin >> b[i];
+  for (int i = 0; i < n; ++i)
+    cin >> b[i];
   int diff1 = 0, diff2 = 0, i = 1;
   sort(c, c + n);
   do {
     bool c1 = true, c2 = true;
     for (int i = 0; i < n; ++i)
-      if (a[i] != c[i]) c1 = false;
+      if (a[i] != c[i])
+        c1 = false;
     for (int i = 0; i < n; ++i)
-      if (b[i] != c[i]) c2 = false;
-    if (c1) diff1 = i;
-    if (c2) diff2 = i;
+      if (b[i] != c[i])
+        c2 = false;
+    if (c1)
+      diff1 = i;
+    if (c2)
+      diff2 = i;
     ++i;
   } while (next_permutation(c, c + n));
   cout << abs(diff1 - diff2);
   return 0;
 }
-

@@ -48,15 +48,15 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    int r, c;
-    cin >> r >> c;
-    int e[r], n[c];
-    F0R(r) cin >> e[i];
-    F0R(c) cin >> n[i];
-    if (*max_element(e, e + r) != *max_element(n, n + c)) {
-        cout << "impossible" << nl;
-        return 0;
-    }
-    cout << "possible" << nl;
+  int r, c;
+  cin >> r >> c;
+  int e[r], n[c];
+  F0R(r) cin >> e[i];
+  F0R(c) cin >> n[i];
+  if (*max_element(e, e + r) != *max_element(n, n + c)) {
+    cout << "impossible" << nl;
     return 0;
+  }
+  cout << "possible" << nl;
+  return 0;
 }

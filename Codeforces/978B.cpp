@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(i, a) for (int i = 0; i < (a); i++)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; i--)
 #define F0Rd(i, a) for (int i = (a)-1; i >= 0; i--)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 
 #define f first
@@ -51,46 +51,46 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 bool ch(string s) {
-    int c = 0;
-    for (int i = 0; i < s.size(); ++i) {
-        if (s[i] == 'x')
-            ++c;
-        else
-            c = 0;
-        if (c == 3) return 1;
-    }
-    return 0;
+  int c = 0;
+  for (int i = 0; i < s.size(); ++i) {
+    if (s[i] == 'x')
+      ++c;
+    else
+      c = 0;
+    if (c == 3)
+      return 1;
+  }
+  return 0;
 }
 
 int main() {
-    fast();
-    cin >> n;
-    string s;
-    cin >> s;
-    if (!ch(s)) {
-        cout << 0;
-        return 0;
-    }
-
-    vector<int> cnt;
-    int c = 0;
-    for (int i = 0; i < s.size(); ++i) {
-        if (s[i] == 'x')
-            ++c;
-        else {
-            cnt.pb(c);
-            c = 0;
-        }
-        if (i == s.size() - 1) {
-            cnt.pb(c);
-        }
-    }
-    int ans = 0;
-    for (auto u : cnt) {
-        ans += max(0, u - 2);
-    }
-    cout << ans;
-
+  fast();
+  cin >> n;
+  string s;
+  cin >> s;
+  if (!ch(s)) {
+    cout << 0;
     return 0;
-}
+  }
 
+  vector<int> cnt;
+  int c = 0;
+  for (int i = 0; i < s.size(); ++i) {
+    if (s[i] == 'x')
+      ++c;
+    else {
+      cnt.pb(c);
+      c = 0;
+    }
+    if (i == s.size() - 1) {
+      cnt.pb(c);
+    }
+  }
+  int ans = 0;
+  for (auto u : cnt) {
+    ans += max(0, u - 2);
+  }
+  cout << ans;
+
+  return 0;
+}

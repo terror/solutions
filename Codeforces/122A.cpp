@@ -36,7 +36,8 @@ void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 bool is_lucky(int n) {
   string s = to_string(n);
   for (int i = 0; i < s.length(); ++i) {
-    if (s[i] != '7' and s[i] != '4') return false;
+    if (s[i] != '7' and s[i] != '4')
+      return false;
   }
   return true;
 }
@@ -56,4 +57,3 @@ int main() {
 
   return 0;
 }
-

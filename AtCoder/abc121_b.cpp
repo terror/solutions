@@ -37,7 +37,8 @@ int main() {
   fast();
   int c;
   cin >> n >> m >> c;
-  for (int i = 0; i < m; ++i) cin >> a[i];
+  for (int i = 0; i < m; ++i)
+    cin >> a[i];
   int ans = 0;
   while (n--) {
     int s = 0;
@@ -46,9 +47,9 @@ int main() {
       cin >> x;
       s += x * a[i];
     }
-    if (s + c > 0) ++ans;
+    if (s + c > 0)
+      ++ans;
   }
   cout << ans;
   return 0;
 }
-

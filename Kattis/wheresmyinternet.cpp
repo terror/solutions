@@ -29,7 +29,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -56,47 +56,49 @@ vi ans;
 bool p = 0;
 
 void dfs(int v) {
-    if (p == 1) ans.pb(v);
-    vis[v] = 1;
-    for (auto u : adj[v]) {
-        if (!vis[u]) {
-            dfs(u);
-        }
+  if (p == 1)
+    ans.pb(v);
+  vis[v] = 1;
+  for (auto u : adj[v]) {
+    if (!vis[u]) {
+      dfs(u);
     }
+  }
 }
 
 int cc(int n) {
-    for (int i = 1; i <= n; ++i) vis[i] = 0;
-    int ret = 0;
-    for (int i = 1; i <= n; ++i) {
-        if (!vis[i]) {
-            ++ret;
-            if (ret > 1) p = 1;
-            dfs(i);
-        }
+  for (int i = 1; i <= n; ++i)
+    vis[i] = 0;
+  int ret = 0;
+  for (int i = 1; i <= n; ++i) {
+    if (!vis[i]) {
+      ++ret;
+      if (ret > 1)
+        p = 1;
+      dfs(i);
     }
-    return ret;
+  }
+  return ret;
 }
 
 int main() {
-    fast();
-    cin >> n >> m;
-    F0R(m) {
-        int u, v;
-        cin >> u >> v;
-        adj[u].pb(v);
-        adj[v].pb(u);
-    }
-    int x = cc(n);
-    if (x == 1) {
-        cout << "Connected";
-        return 0;
-    }
-    sort(all(ans));
-    for (auto x : ans) {
-        cout << x << nl;
-    }
-
+  fast();
+  cin >> n >> m;
+  F0R(m) {
+    int u, v;
+    cin >> u >> v;
+    adj[u].pb(v);
+    adj[v].pb(u);
+  }
+  int x = cc(n);
+  if (x == 1) {
+    cout << "Connected";
     return 0;
-}
+  }
+  sort(all(ans));
+  for (auto x : ans) {
+    cout << x << nl;
+  }
 
+  return 0;
+}

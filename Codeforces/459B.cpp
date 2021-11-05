@@ -34,29 +34,30 @@ ll n, m, t, a[mxN];
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 int main() {
-    fast();
-    cin >> n;
-    ll mn = 1e9, mx = 0;
-    for (ll i = 0; i < n; ++i) {
-        ll x;
-        cin >> x;
-        a[i] = x;
-        mx = max(mx, x);
-        mn = min(mn, x);
-    }
-    cout << mx - mn << " ";
-    if (mx == mn) {
-        cout << n * (n - 1) / 2;
-        return 0;
-    }
-    ll mxx = 0, mnn = 0;
-    for (ll i = 0; i < n; ++i) {
-        if (a[i] == mx) ++mxx;
-        if (a[i] == mn) ++mnn;
-    }
-
-    cout << mxx * mnn;
-
+  fast();
+  cin >> n;
+  ll mn = 1e9, mx = 0;
+  for (ll i = 0; i < n; ++i) {
+    ll x;
+    cin >> x;
+    a[i] = x;
+    mx = max(mx, x);
+    mn = min(mn, x);
+  }
+  cout << mx - mn << " ";
+  if (mx == mn) {
+    cout << n * (n - 1) / 2;
     return 0;
-}
+  }
+  ll mxx = 0, mnn = 0;
+  for (ll i = 0; i < n; ++i) {
+    if (a[i] == mx)
+      ++mxx;
+    if (a[i] == mn)
+      ++mnn;
+  }
 
+  cout << mxx * mnn;
+
+  return 0;
+}

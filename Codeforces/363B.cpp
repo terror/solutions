@@ -34,30 +34,30 @@ ll n, m, t, a[mxN];
 void fast() { ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0); }
 
 int main() {
-    fast();
-    cin >> n >> m;
-    FOR(i, 0, n) {
-        cin >> a[i];
-        if (i != 0) a[i] = a[i - 1] + a[i];
+  fast();
+  cin >> n >> m;
+  FOR(i, 0, n) {
+    cin >> a[i];
+    if (i != 0)
+      a[i] = a[i - 1] + a[i];
+  }
+  ll mn = 1e18, ans = 0;
+  for (int i = 0; i <= n - m; ++i) {
+    ll s = 0;
+    if (i == 0) {
+      s = a[i + m - 1];
+      if (s <= mn) {
+        mn = s;
+        ans = i;
+      }
+    } else {
+      s = a[i + m - 1] - a[i - 1];
+      if (s <= mn) {
+        mn = s;
+        ans = i;
+      }
     }
-    ll mn = 1e18, ans = 0;
-    for (int i = 0; i <= n - m; ++i) {
-        ll s = 0;
-        if (i == 0) {
-            s = a[i + m - 1];
-            if (s <= mn) {
-                mn = s;
-                ans = i;
-            }
-        } else {
-            s = a[i + m - 1] - a[i - 1];
-            if (s <= mn) {
-                mn = s;
-                ans = i;
-            }
-        }
-    }
-    cout << ++ans;
-    return 0;
+  }
+  cout << ++ans;
+  return 0;
 }
-

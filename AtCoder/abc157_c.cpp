@@ -28,7 +28,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) for (int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -50,35 +50,34 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 int main() {
-    fast();
-    cin >> n >> m;
-    map<int, int> mp;
-    for (int i = 0; i < m; ++i) {
-        int u, v;
-        cin >> u >> v;
-        if (u == 1 and v == 0 and n >= 2) {
-            cout << -1;
-            return 0;
-        }
-        if (mp.find(u) != mp.end()) {
-            if (mp[u] != v) {
-                cout << -1;
-                return 0;
-            }
-        }
-        mp[u] = v;
+  fast();
+  cin >> n >> m;
+  map<int, int> mp;
+  for (int i = 0; i < m; ++i) {
+    int u, v;
+    cin >> u >> v;
+    if (u == 1 and v == 0 and n >= 2) {
+      cout << -1;
+      return 0;
     }
-    vector<int> ans(n);
-    for (auto u : mp) {
-        ans[u.f - 1] = u.s;
+    if (mp.find(u) != mp.end()) {
+      if (mp[u] != v) {
+        cout << -1;
+        return 0;
+      }
     }
-    if (ans[0] == 0 and n >= 2) {
-        ans[0] = 1;
-    }
-    for (auto x : ans) {
-        cout << x << "";
-    }
+    mp[u] = v;
+  }
+  vector<int> ans(n);
+  for (auto u : mp) {
+    ans[u.f - 1] = u.s;
+  }
+  if (ans[0] == 0 and n >= 2) {
+    ans[0] = 1;
+  }
+  for (auto x : ans) {
+    cout << x << "";
+  }
 
-    return 0;
+  return 0;
 }
-

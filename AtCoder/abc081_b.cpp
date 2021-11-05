@@ -37,17 +37,20 @@ int main() {
   fast();
   cin >> n;
   bool ok = true;
-  for (int i = 0; i < n; ++i) cin >> a[i];
+  for (int i = 0; i < n; ++i)
+    cin >> a[i];
   int ans = 0;
   while (ok) {
     for (int i = 0; i < n; ++i)
-      if (a[i] % 2 != 0) ok = false;
-    if (ok == false) break;
-    for (int i = 0; i < n; ++i) a[i] /= 2;
+      if (a[i] % 2 != 0)
+        ok = false;
+    if (ok == false)
+      break;
+    for (int i = 0; i < n; ++i)
+      a[i] /= 2;
     ++ans;
   }
   cout << ans;
 
   return 0;
 }
-

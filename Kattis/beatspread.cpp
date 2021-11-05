@@ -16,7 +16,8 @@ int main() {
           break;
         }
       }
-      if (p) break;
+      if (p)
+        break;
     }
     if (!p) {
       cout << "impossible"

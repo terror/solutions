@@ -29,7 +29,7 @@ const char nl = '\n';
 #define F0R(a) for (int i = 0; i < (a); ++i)
 #define FORd(i, a, b) fo(int i = (b)-1; i >= a; --i)
 #define F0Rd(a) for (int i = (a)-1; ~i; --i)
-#define trav(a, x) for (auto& a : x)
+#define trav(a, x) for (auto &a : x)
 
 #define f first
 #define s second
@@ -49,44 +49,48 @@ ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b); }
 ll lcm(ll a, ll b) { return a * (b / gcd(a, b)); }
 
 class UF {
-   private:
-    vi p, r, sz, u;
+private:
+  vi p, r, sz, u;
 
-   public:
-    UF(int N) {
-        p.assign(N + 1, 0), r.assign(N + 1, 0), sz.assign(N + 1, 1),
-            u.assign(N + 1, 0);
-        for (int i = 1; i <= N; ++i) p[i] = i;
+public:
+  UF(int N) {
+    p.assign(N + 1, 0), r.assign(N + 1, 0), sz.assign(N + 1, 1),
+        u.assign(N + 1, 0);
+    for (int i = 1; i <= N; ++i)
+      p[i] = i;
+  }
+  bool same(int i, int j) { return find(i) == find(j); }
+  int find(int i) { return p[i] == i ? i : (p[i] = find(p[i])); }
+  void merge(int i, int j) {
+    if (same(i, j))
+      return;
+    int x = find(i), y = find(j);
+    if (r[x] > r[y])
+      swap(x, y);
+    p[x] = y;
+    if (r[x] == r[y])
+      ++r[y];
+    sz[y] += sz[x], u[y] += u[x];
+  }
+  bool op(int i) {
+    int x = find(i);
+    if (u[x] + 1 <= sz[x]) {
+      ++u[x];
+      return 1;
     }
-    bool same(int i, int j) { return find(i) == find(j); }
-    int find(int i) { return p[i] == i ? i : (p[i] = find(p[i])); }
-    void merge(int i, int j) {
-        if (same(i, j)) return;
-        int x = find(i), y = find(j);
-        if (r[x] > r[y]) swap(x, y);
-        p[x] = y;
-        if (r[x] == r[y]) ++r[y];
-        sz[y] += sz[x], u[y] += u[x];
-    }
-    bool op(int i) {
-        int x = find(i);
-        if (u[x] + 1 <= sz[x]) {
-            ++u[x];
-            return 1;
-        }
-        return 0;
-    }
+    return 0;
+  }
 };
 
 int main() {
-    fast();
-    int N, M;
-    cin >> N >> M;
-    UF x = UF(M);
-    while (N--) {
-        int a, b;
-        cin >> a >> b;
-        x.merge(a, b);
-        cout << (x.op(a) ? "LADICA" : "SMECE") << nl;
-    }
+  fast();
+  int N, M;
+  cin >> N >> M;
+  UF x = UF(M);
+  while (N--) {
+    int a, b;
+    cin >> a >> b;
+    x.merge(a, b);
+    cout << (x.op(a) ? "LADICA" : "SMECE") << nl;
+  }
 }

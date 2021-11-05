@@ -13,7 +13,8 @@ int main() {
   while (cin >> n && n != -1) {
     int adj[mxV][mxV];
     for (int i = 0; i < n; i++)
-      for (int j = 0; j < n; j++) cin >> adj[i][j];
+      for (int j = 0; j < n; j++)
+        cin >> adj[i][j];
 
     for (int i = 0; i < n; i++) {
       bool w = true;
@@ -22,7 +23,8 @@ int main() {
           if (adj[i][j] == 1 && adj[i][k] == 1 && adj[j][k] == 1 && i != k &&
               i != j && j != k)
             w = false;
-      if (w) cout << i << " ";
+      if (w)
+        cout << i << " ";
     }
     cout << "\n";
   }

@@ -7,7 +7,8 @@ vi p, setSize;
 
 void uf(int n) {
   p.assign(n + 1, 0);
-  for (int i = 0; i < n; ++i) p[i] = i;
+  for (int i = 0; i < n; ++i)
+    p[i] = i;
   setSize.assign(n + 1, 1);
 }
 
@@ -18,9 +19,11 @@ bool isSameSet(int i, int j) { return findSet(i) == findSet(j); }
 int sizeOfSet(int i) { return setSize[findSet(i)]; }
 
 void unionSet(int i, int j) {
-  if (isSameSet(i, j)) return;
+  if (isSameSet(i, j))
+    return;
   int a = findSet(i), b = findSet(j);
-  if (setSize[a] < setSize[b]) swap(a, b);
+  if (setSize[a] < setSize[b])
+    swap(a, b);
   p[b] = p[a];
   setSize[a] += setSize[b];
 }
@@ -40,4 +43,3 @@ int main() {
   }
   return 0;
 }
-

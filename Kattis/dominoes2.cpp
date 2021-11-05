@@ -4,7 +4,8 @@ using namespace std;
 const int MXV = 10001;
 
 void dfs(int v, vector<int> adj[], vector<bool> &vis, int &ans) {
-  if (!vis[v]) ++ans, vis[v] = true;
+  if (!vis[v])
+    ++ans, vis[v] = true;
   for (auto u : adj[v]) {
     if (!vis[u]) {
       dfs(u, adj, vis, ans);
@@ -34,4 +35,3 @@ int main() {
   }
   return 0;
 }
-

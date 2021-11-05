@@ -4,19 +4,18 @@ typedef long long ll;
 typedef vector<ll> vl;
 ll n;
 
-int main()
-{
-    cin >> n;
-    vl v(n);
-    for (auto &x : v)
-        cin >> x;
+int main() {
+  cin >> n;
+  vl v(n);
+  for (auto &x : v)
+    cin >> x;
 
-    sort(v.rbegin(), v.rend());
+  sort(v.rbegin(), v.rend());
 
-    ll ans = 0;
-    for (int i = 2; i < n; i += 3)
-        ans += v[i];
+  ll ans = 0;
+  for (int i = 2; i < n; i += 3)
+    ans += v[i];
 
-    cout << ans;
-    return 0;
+  cout << ans;
+  return 0;
 }

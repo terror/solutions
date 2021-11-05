@@ -28,7 +28,7 @@ int main() {
   ans.pb(1);
   d.assign(n, 10000000);
   d[1] = 0;
-  set<pair<int, int> > q;
+  set<pair<int, int>> q;
   q.insert({1, 0});
   while (!q.empty()) {
     int v = q.begin()->s;
@@ -42,8 +42,8 @@ int main() {
     }
   }
   cout << ans.size() << "\n";
-  for (auto v : ans) cout << v << " ";
+  for (auto v : ans)
+    cout << v << " ";
 
   return 0;
 }
-

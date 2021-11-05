@@ -41,9 +41,9 @@ int main() {
     cin >> n;
     string s;
     cin >> s;
-    for (int i = 0; i < s.length(); i += 2) cout << s[i];
+    for (int i = 0; i < s.length(); i += 2)
+      cout << s[i];
     cout << "\n";
   }
   return 0;
 }
-

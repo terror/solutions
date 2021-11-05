@@ -54,4 +54,3 @@ int main() {
   cout << x + ans;
   return 0;
 }
-

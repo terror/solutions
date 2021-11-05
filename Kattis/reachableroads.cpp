@@ -10,12 +10,14 @@ vector<bool> vis(mxV);
 void dfs(int v) {
   vis[v] = true;
   for (int i = 0; i < adj[v].size(); ++i)
-    if (!vis[adj[v][i]]) dfs(adj[v][i]);
+    if (!vis[adj[v][i]])
+      dfs(adj[v][i]);
 }
 
 int cc() {
   int ans = 0;
-  for (int i = 0; i < m; ++i) vis[i] = false;
+  for (int i = 0; i < m; ++i)
+    vis[i] = false;
   for (int i = 0; i < m; ++i) {
     if (!vis[i]) {
       ++ans;
@@ -37,7 +39,8 @@ int main() {
     }
     dfs(0);
     cout << cc() - 1 << "\n";
-    for (auto &v : adj) v.clear();
+    for (auto &v : adj)
+      v.clear();
     vis.clear();
   }
 }

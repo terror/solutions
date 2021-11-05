@@ -43,10 +43,10 @@ int main() {
       ++s;
       t /= 2;
     }
-    if (s > ans) num = i, ans = s;
+    if (s > ans)
+      num = i, ans = s;
   }
   cout << num;
 
   return 0;
 }
-
