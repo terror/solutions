@@ -1,14 +1,16 @@
+export EDITOR := 'nvim'
+
+alias e := exec
+alias f := fmt
+
 default:
   just --list
-
-rust *args:
-  rustc {{args}}.rs && ./{{args}} && rm {{args}}
 
 exec *name:
   python3 ./bin/{{name}}
 
 update:
-  python3 ./bin/update > ./README.md
+  python3 ./bin/update.py > ./README.md
 
-fmt-py:
+fmt:
   yapf --in-place --recursive **/*.py

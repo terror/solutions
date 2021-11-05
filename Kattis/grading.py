@@ -10,4 +10,4 @@ def main(grades, curr):
   print('F')
 
 if __name__ == '__main__':
-  main({ A[index]: grade for index, grade in enumerate(list(map(int, input().split()))) }, int(input()))
+  main({A[index]: grade for index, grade in enumerate(list(map(int, input().split())))}, int(input()))

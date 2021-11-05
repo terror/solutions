@@ -3,9 +3,9 @@ while True:
   if n == 0:
     break
   a, b, ret = (
-      [int(input()) for i in range(n)],
-      sorted([int(input()) for i in range(n)]),
-      [0] * n,
+    [int(input()) for i in range(n)],
+    sorted([int(input()) for i in range(n)]),
+    [0] * n,
   )
   d = {a[i]: i for i in range(n)}
   a.sort()

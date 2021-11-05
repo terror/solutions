@@ -1,7 +1,8 @@
 from collections import Counter, namedtuple
 
 def main(n, L):
-  c = Counter(L); A =0
+  c = Counter(L)
+  A = 0
   for i in range(n):
     curr = L[i] + 1
     while curr in c and c[curr] != 0:

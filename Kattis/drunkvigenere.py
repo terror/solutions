@@ -1,6 +1,8 @@
 import string
 
-S = string.ascii_lowercase; C = input(); K = input()
+S = string.ascii_lowercase
+C = input()
+K = input()
 
 ret = ''
 for i, v in enumerate(C):

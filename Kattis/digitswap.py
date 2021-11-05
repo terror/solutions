@@ -1,6 +1,7 @@
 s = list(input())
 
-l = 0; r = len(s) - 1
+l = 0
+r = len(s) - 1
 while l <= r:
   t = s[l]
   s[l] = s[r]

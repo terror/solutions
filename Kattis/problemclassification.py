@@ -2,8 +2,7 @@ import sys, collections
 
 def main(a, b):
   for _ in range(int(input())):
-    name, *items = map(str,
-                       input().split())
+    name, *items = map(str, input().split())
     a[name] = items[1:]
 
   for l in sys.stdin.readlines():

@@ -3,7 +3,8 @@ def main(n):
   while 1:
     if n == 1:
       break
-    n = (n // 2, 3 * n + 1)[n & 1]; ret += 1
+    n = (n // 2, 3 * n + 1)[n & 1]
+    ret += 1
   return ret
 
 if __name__ == '__main__':

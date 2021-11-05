@@ -2,8 +2,7 @@ from collections import Counter, defaultdict
 
 ret, d = Counter(), defaultdict(dict)
 for _ in range(int(input())):
-  a, b, c = map(str,
-                input().split())
+  a, b, c = map(str, input().split())
   n = a + b
   if c in d[n]: continue
   ret[c] += 1

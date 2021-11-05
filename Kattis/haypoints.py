@@ -1,8 +1,7 @@
 import sys
 from collections import Counter
 
-n, m = list(map(int,
-                input().split()))
+n, m = list(map(int, input().split()))
 d = {}
 ans = []
 

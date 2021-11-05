@@ -25,10 +25,12 @@ from collections import namedtuple
 I = namedtuple('I', 'e s')
 
 def main(intervals):
-  S = 0; A = 0
+  S = 0
+  A = 0
   for interval in intervals:
     if interval.s >= S:
-      S = interval.e; A += 1
+      S = interval.e
+      A += 1
   return A
 
 if __name__ == '__main__':
