@@ -1,23 +1,20 @@
 from collections import Counter
+from functools import cmp_to_key
 
-n, c = list(map(int, input().split()))
-arr = list(map(int, input().split()))
+def main(L):
+  c = Counter(L)
 
-count = {v: [k for k in Counter(arr) if Counter(arr)[k] == v] for v in set(Counter(arr).values())}
+  def cmp(a, b):
+    if c[a] > c[b]:
+      return -1
+    elif c[a] < c[b]:
+      return 1
+    else:
+      return -1 if L.index(a) < L.index(b) else 1
+    return 0
 
-new = []
+  return sorted(L, key=cmp_to_key(cmp))
 
-for key, val in sorted(count.items(), reverse=True):
-  if len(val) > 1:
-    index = 0
-    arr = list(set(arr))
-    for i in range(len(arr)):
-      if arr[i] in val:
-        for i in range(key):
-          new.append(val[index])
-        index += 1
-  else:
-    for i in range(key):
-      new.append(val[0])
-
-print(*new)
+if __name__ == '__main__':
+  _ = map(int, input().split())
+  print(*main(list(map(int, input().split()))))
