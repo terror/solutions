@@ -1,16 +1,9 @@
-## solutions
-
-Competitive programming & interview style problems I have solved on various coding platforms.
-
-### Contents
-[AtCoder](https://github.com/terror/CompetitiveProgramming/blob/master/AtCoder/) (102)<br/>
-[CSES](https://github.com/terror/CompetitiveProgramming/blob/master/CSES/) (24)<br/>
-[Codeforces](https://github.com/terror/CompetitiveProgramming/blob/master/Codeforces/) (111)<br/>
-[Dmoj](https://github.com/terror/CompetitiveProgramming/blob/master/Dmoj/) (8)<br/>
-[Kattis](https://github.com/terror/CompetitiveProgramming/blob/master/Kattis/) (392)<br/>
-[Leetcode](https://github.com/terror/CompetitiveProgramming/blob/master/Leetcode/) (63)<br/>
-[Project Euler](https://github.com/terror/CompetitiveProgramming/blob/master/Project%20Euler/) (14)<br/>
-[Timus](https://github.com/terror/CompetitiveProgramming/blob/master/Timus/) (1)<br/>
-[UVA](https://github.com/terror/CompetitiveProgramming/blob/master/UVA/) (7)<br/>
-[bin](https://github.com/terror/CompetitiveProgramming/blob/master/bin/) (2)<br/>
-
+[atcoder](https://github.com/terror/solution/blob/master/atcoder) (102)<br/>
+[codeforces](https://github.com/terror/solution/blob/master/codeforces) (111)<br/>
+[cses](https://github.com/terror/solution/blob/master/cses) (24)<br/>
+[dmoj](https://github.com/terror/solution/blob/master/dmoj) (8)<br/>
+[euler](https://github.com/terror/solution/blob/master/euler) (14)<br/>
+[kattis](https://github.com/terror/solution/blob/master/kattis) (409)<br/>
+[leetcode](https://github.com/terror/solution/blob/master/leetcode) (64)<br/>
+[timus](https://github.com/terror/solution/blob/master/timus) (1)<br/>
+[uva](https://github.com/terror/solution/blob/master/uva) (7)<br/>

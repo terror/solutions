@@ -6,11 +6,13 @@ alias f := fmt
 default:
   just --list
 
+all: fmt readme
+
 exec *name:
   python3 ./bin/{{name}}
 
-update:
-  python3 ./bin/update.py > ./README.md
-
 fmt:
-  yapf --in-place --recursive **/*.py
+  yapf --in-place --recursive .
+
+readme:
+	./bin/gen-readme
