@@ -2,7 +2,7 @@
 
 import os
 
-LINK = 'https://github.com/terror/solution/blob/master'
+LINK = 'https://github.com/terror/solutions/blob/master'
 
 def traverse(exclude):
   ret = {}
