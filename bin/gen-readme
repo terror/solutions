@@ -3,6 +3,7 @@
 import os
 
 LINK = 'https://github.com/terror/solutions/blob/master'
+PATH = 'README.md'
 
 def traverse(exclude):
   ret = {}
@@ -12,22 +13,26 @@ def traverse(exclude):
     ret[root[2:]] = len(os.listdir(root))
   return ret
 
+def get_lines(path):
+  with open(path, 'r') as file:
+    lines = file.readlines()
+  return lines
+
 def write(text):
-  with open('README.md', 'w+') as file:
-    file.write(text)
+  lines = get_lines(PATH)
+  with open(PATH, 'w+') as file:
+    file.write(f'{"".join(lines[:2])}\n{text}')
 
 def main(directories):
-  write(
-    ''.join(
-      list(
-        map(
-          lambda pair: "[{}]({}/{}) ({})<br/>\n".
-          format(pair[0], LINK, "%20".join(pair[0].split()), pair[1]),
-          sorted(directories.items())
-        )
+  return ''.join(
+    list(
+      map(
+        lambda pair: "[{}]({}/{}) ({})<br/>\n".
+        format(pair[0], LINK, "%20".join(pair[0].split()), pair[1]),
+        sorted(directories.items())
       )
     )
   )
 
 if __name__ == '__main__':
-  main(traverse(['.git', 'bin', 'mcgill']))
+  write(main(traverse(exclude=['.git', 'bin', 'mcgill', 'aoc'])))
