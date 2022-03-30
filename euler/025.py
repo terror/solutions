@@ -4,4 +4,7 @@ from functools import lru_cache
 def fib(n):
   return n if n < 2 else fib(n - 1) + fib(n - 2)
 
-print(sum(filter(lambda x: x % 2 == 0, map(lambda x: fib(x), range(34)))))
+i = 0
+while len(str(fib(i))) < 1000:
+  i += 1
+print(i)

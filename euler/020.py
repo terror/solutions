@@ -1,9 +1,7 @@
-def main():
-  print(sum([int(x) for x in list(str(fac(100)))]))
+from functools import lru_cache
 
-def fac(n):
-  if n == 0:
-    return 1
-  return n * fac(n - 1)
+@lru_cache
+def fact(n):
+  return 1 if n <= 1 else n * fact(n - 1)
 
-main()
+print(sum(map(int, list(str(fact(100))))))

@@ -1,19 +1,18 @@
-def main():
-  mx, ans = 0, 0
-  for i in range(1, 1000001):
-    x = seq(i)
-    if x > mx:
-      mx, ans = x, i
-  print(ans)
+from dataclasses import dataclass
 
-def seq(n):
-  cnt = 1
+@dataclass
+class Pair:
+  number: int
+  count: int
+
+  def __lt__(self, o):
+    return self.count < o.count
+
+def collatz(n):
+  count = 0
   while n != 1:
-    if n % 2 == 0:
-      n /= 2
-    else:
-      n = 3 * n + 1
-    cnt += 1
-  return cnt
+    n = (n // 2, (3 * n) + 1)[n & 1]
+    count += 1
+  return count
 
-main()
+print(max(map(lambda n: Pair(n, collatz(n)), range(1, 1000000))).number)

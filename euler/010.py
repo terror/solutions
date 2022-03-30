@@ -1,14 +1,5 @@
-import math
-import itertools
+from math import sqrt
 
-def main():
-  Sum = 0
-  for i in range(2000000):
-    if is_prime(i):
-      Sum += i
-  print(Sum)
+prime = lambda x: all(map(lambda i: x % i, range(2, int(sqrt(x)) + 1)))
 
-def is_prime(n):
-  return n > 1 and all(n % i for i in itertools.islice(itertools.count(2), int(math.sqrt(n) - 1)))
-
-main()
+print(sum(map(lambda x: x * prime(x), range(2, 2_000_000))))
