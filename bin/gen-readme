@@ -10,7 +10,7 @@ def traverse(exclude):
   for root, dirs, files in os.walk(".", topdown=True):
     if sum([x in root for x in exclude]) or root == ".":
       continue
-    ret[root[2:]] = len(os.listdir(root))
+    ret[root[2:]] = len(set(list(map(lambda entry: entry[:entry.find('.')], os.listdir(root)))))
   return ret
 
 def get_lines(path):
