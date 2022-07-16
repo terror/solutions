@@ -8,7 +8,7 @@ PATH = 'README.md'
 def traverse(exclude):
   ret = {}
   for root, dirs, files in os.walk(".", topdown=True):
-    if sum([x in root for x in exclude]) or root == ".":
+    if sum([f'{root}/'.startswith(x) for x in exclude]) or root == ".":
       continue
     ret[root[2:]] = len(set(list(map(lambda entry: entry[:entry.find('.')], os.listdir(root)))))
   return ret
@@ -35,4 +35,4 @@ def main(directories):
   )
 
 if __name__ == '__main__':
-  write(main(traverse(exclude=['.git', 'bin', 'mcgill', 'aoc'])))
+  write(main(traverse(exclude=['./.git/', './bin/', './mcgill/', './aoc/'])))
