@@ -7,4 +7,5 @@ def fib(n):
 i = 0
 while len(str(fib(i))) < 1000:
   i += 1
+
 print(i)

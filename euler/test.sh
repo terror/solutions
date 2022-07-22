@@ -2,7 +2,7 @@
 # potential refactoring. The script also provides runtime information for
 # each solution.
 #
-# Once a solution is solved it should be added to the `main` function.
+# Once a problem is solved it should be added to the `main` function.
 
 RED=`echo -en "\e[31m"`
 GREEN=`echo -en "\e[32m"`
