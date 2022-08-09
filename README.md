@@ -2,9 +2,9 @@
 interview style problems on various online judge platforms.
 
 [atcoder](https://github.com/terror/solutions/blob/master/atcoder) (102)<br/>
-[binarysearch](https://github.com/terror/solutions/blob/master/binarysearch) (129)<br/>
+[binarysearch](https://github.com/terror/solutions/blob/master/binarysearch) (151)<br/>
 [codeforces](https://github.com/terror/solutions/blob/master/codeforces) (111)<br/>
-[cses](https://github.com/terror/solutions/blob/master/cses) (24)<br/>
+[cses](https://github.com/terror/solutions/blob/master/cses) (25)<br/>
 [dmoj](https://github.com/terror/solutions/blob/master/dmoj) (8)<br/>
 [euler](https://github.com/terror/solutions/blob/master/euler) (17)<br/>
 [kattis](https://github.com/terror/solutions/blob/master/kattis) (440)<br/>
